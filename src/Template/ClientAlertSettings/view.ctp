@@ -1,29 +1,3 @@
-<div class="clientAlertSettings view large-10 medium-9 columns">
-    <h2><?= h($clientAlertSetting->id) ?></h2>
-    <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Client Info') ?></h6>
-            <p><?= $clientAlertSetting->has('client_info') ? $this->Html->link($clientAlertSetting->client_info->name, ['controller' => 'ClientInfos', 'action' => 'view', $clientAlertSetting->client_info->id]) : '' ?></p>
-            <h6 class="subheader"><?= __('Alert Type') ?></h6>
-            <p><?= $clientAlertSetting->has('alert_type') ? $this->Html->link($clientAlertSetting->alert_type->name, ['controller' => 'AlertTypes', 'action' => 'view', $clientAlertSetting->alert_type->id]) : '' ?></p>
-            <h6 class="subheader"><?= __('Client Contact') ?></h6>
-            <p><?= $clientAlertSetting->has('client_contact') ? $this->Html->link($clientAlertSetting->client_contact->name, ['controller' => 'ClientContacts', 'action' => 'view', $clientAlertSetting->client_contact->id]) : '' ?></p>
-            <h6 class="subheader"><?= __('Client Device') ?></h6>
-            <p><?= $clientAlertSetting->has('client_device') ? $this->Html->link($clientAlertSetting->client_device->name, ['controller' => 'ClientDevices', 'action' => 'view', $clientAlertSetting->client_device->id]) : '' ?></p>
-        </div>
-        <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('Id') ?></h6>
-            <p><?= $this->Number->format($clientAlertSetting->id) ?></p>
-        </div>
-        <div class="large-2 columns booleans end">
-            <h6 class="subheader"><?= __('Is Sms') ?></h6>
-            <p><?= $clientAlertSetting->is_sms ? __('Yes') : __('No'); ?></p>
-            <h6 class="subheader"><?= __('Is Email') ?></h6>
-            <p><?= $clientAlertSetting->is_email ? __('Yes') : __('No'); ?></p>
-        </div>
-    </div>
-</div>
-
 
 <div class="portlet light">
     <div class="portlet-title">
@@ -53,13 +27,12 @@
     <div class="portlet-body">
         <div class="panel-body">
             <table class="table table-bordered" align="center">
-                <tr><td class="text-right">Alert Type Name</td><td><?= h($clientAlertSetting->name) ?></td></tr>
-                <tr><td class="text-right">Description</td><td><?= h($clientAlertSetting->description) ?></td></tr>
-                <tr><td class="text-right">Alert Type ID</td><td><?= $this->Number->format($clientAlertSetting->id) ?></td></tr>
-                <tr><td class="text-right">Message Code</td><td><?= $this->Number->format($clientAlertSetting->msg_code) ?></td></tr>
-                <tr><td class="text-right">Description</td><td><?= h($clientAlertSetting->description) ?></td></tr>
-                <tr><td class="text-right">Alert Type ID</td><td><?= $this->Number->format($clientAlertSetting->id) ?></td></tr>
-                <tr><td class="text-right">Message Code</td><td><?= $this->Number->format($clientAlertSetting->msg_code) ?></td></tr>
+                <tr><td class="text-right">Client Name</td><td><?= $clientAlertSetting->has('client_info') ? $this->Html->link($clientAlertSetting->client_info->name, ['controller' => 'ClientInfos', 'action' => 'view', $clientAlertSetting->client_info->id]) : '' ?></td></tr>
+                <tr><td class="text-right">Alert Type</td><td><?= $clientAlertSetting->has('alert_type') ? $this->Html->link($clientAlertSetting->alert_type->name, ['controller' => 'AlertTypes', 'action' => 'view', $clientAlertSetting->alert_type->id]) : '' ?></td></tr>
+                <tr><td class="text-right">Client Contact</td><td><?= $clientAlertSetting->has('client_contact') ? $this->Html->link($clientAlertSetting->client_contact->name, ['controller' => 'ClientContacts', 'action' => 'view', $clientAlertSetting->client_contact->id]) : '' ?></td></tr>
+                <tr><td class="text-right">Client Device</td><td><?= $clientAlertSetting->has('client_device') ? $this->Html->link($clientAlertSetting->client_device->name, ['controller' => 'ClientDevices', 'action' => 'view', $clientAlertSetting->client_device->id]) : '' ?></td></tr>
+                <tr><td class="text-right">Alert By SMS</td><td><?= $clientAlertSetting->is_sms ? __('Yes') : __('No'); ?></td></tr>
+                <tr><td class="text-right">Alert By Email</td><td><?= $clientAlertSetting->is_email ? __('Yes') : __('No'); ?></td></tr>
             </table>
         </div>
     </div>
