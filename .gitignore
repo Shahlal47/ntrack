@@ -1,5 +1,6 @@
 CakePHP 3
 
+/webroot/*
 /vendor/*
 /config/app.php
 /tmp/*
