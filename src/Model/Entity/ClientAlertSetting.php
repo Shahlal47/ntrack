@@ -3,17 +3,8 @@ namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
 
-/**
- * ClientAlertSetting Entity.
- */
 class ClientAlertSetting extends Entity
 {
-
-    /**
-     * Fields that can be mass assigned using newEntity() or patchEntity().
-     *
-     * @var array
-     */
     protected $_accessible = [
         'client_info_id' => true,
         'alert_type_id' => true,

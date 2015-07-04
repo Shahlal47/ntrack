@@ -7,23 +7,8 @@ use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
-/**
- * ClientAlertSettings Model
- *
- * @property \Cake\ORM\Association\BelongsTo $ClientInfos
- * @property \Cake\ORM\Association\BelongsTo $AlertTypes
- * @property \Cake\ORM\Association\BelongsTo $ClientContacts
- * @property \Cake\ORM\Association\BelongsTo $ClientDevices
- */
 class ClientAlertSettingsTable extends Table
 {
-
-    /**
-     * Initialize method
-     *
-     * @param array $config The configuration for the Table.
-     * @return void
-     */
     public function initialize(array $config)
     {
         $this->table('client_alert_settings');
@@ -48,12 +33,6 @@ class ClientAlertSettingsTable extends Table
         ]);
     }
 
-    /**
-     * Default validation rules.
-     *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
-     */
     public function validationDefault(Validator $validator)
     {
         $validator
@@ -71,13 +50,6 @@ class ClientAlertSettingsTable extends Table
         return $validator;
     }
 
-    /**
-     * Returns a rules checker object that will be used for validating
-     * application integrity.
-     *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
-     */
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['client_info_id'], 'ClientInfos'));

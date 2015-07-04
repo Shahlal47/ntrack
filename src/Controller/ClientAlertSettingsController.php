@@ -3,19 +3,9 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-/**
- * ClientAlertSettings Controller
- *
- * @property \App\Model\Table\ClientAlertSettingsTable $ClientAlertSettings
- */
+
 class ClientAlertSettingsController extends AppController
 {
-
-    /**
-     * Index method
-     *
-     * @return void
-     */
     public function index()
     {
         $this->paginate = [
@@ -25,13 +15,6 @@ class ClientAlertSettingsController extends AppController
         $this->set('_serialize', ['clientAlertSettings']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Client Alert Setting id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $clientAlertSetting = $this->ClientAlertSettings->get($id, [
@@ -41,11 +24,6 @@ class ClientAlertSettingsController extends AppController
         $this->set('_serialize', ['clientAlertSetting']);
     }
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $clientAlertSetting = $this->ClientAlertSettings->newEntity();
@@ -66,13 +44,6 @@ class ClientAlertSettingsController extends AppController
         $this->set('_serialize', ['clientAlertSetting']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id Client Alert Setting id.
-     * @return void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $clientAlertSetting = $this->ClientAlertSettings->get($id, [
@@ -95,13 +66,6 @@ class ClientAlertSettingsController extends AppController
         $this->set('_serialize', ['clientAlertSetting']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Client Alert Setting id.
-     * @return void Redirects to index.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
