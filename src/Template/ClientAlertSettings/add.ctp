@@ -1,5 +1,5 @@
 
-<div class="portlet light ">
+<div class="portlet light">
     <div class="portlet-title">
         <div class="caption font-purple-plum">
             <span class="caption-subject bold uppercase"><?= __('Add Client Alert Setting') ?></span>
