@@ -47,11 +47,11 @@ class ClientDriverAssignmentsFixture extends TestFixture
             'client_info_id' => 1,
             'client_driver_id' => 1,
             'client_vehicle_id' => 1,
-            'from' => '2015-06-28 03:57:03',
-            'to' => '2015-06-28 03:57:03',
+            'from' => '2015-07-05 07:35:23',
+            'to' => '2015-07-05 07:35:23',
             'client_contact_id' => 1,
-            'created' => '2015-06-28 03:57:03',
-            'modified' => '2015-06-28 03:57:03'
+            'created' => '2015-07-05 07:35:23',
+            'modified' => '2015-07-05 07:35:23'
         ],
     ];
 }

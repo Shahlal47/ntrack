@@ -3,19 +3,8 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-/**
- * ClientDriverAssignments Controller
- *
- * @property \App\Model\Table\ClientDriverAssignmentsTable $ClientDriverAssignments
- */
 class ClientDriverAssignmentsController extends AppController
 {
-
-    /**
-     * Index method
-     *
-     * @return void
-     */
     public function index()
     {
         $this->paginate = [
@@ -25,13 +14,6 @@ class ClientDriverAssignmentsController extends AppController
         $this->set('_serialize', ['clientDriverAssignments']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Client Driver Assignment id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $clientDriverAssignment = $this->ClientDriverAssignments->get($id, [
@@ -41,11 +23,6 @@ class ClientDriverAssignmentsController extends AppController
         $this->set('_serialize', ['clientDriverAssignment']);
     }
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $clientDriverAssignment = $this->ClientDriverAssignments->newEntity();
@@ -66,13 +43,6 @@ class ClientDriverAssignmentsController extends AppController
         $this->set('_serialize', ['clientDriverAssignment']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id Client Driver Assignment id.
-     * @return void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $clientDriverAssignment = $this->ClientDriverAssignments->get($id, [
@@ -95,13 +65,6 @@ class ClientDriverAssignmentsController extends AppController
         $this->set('_serialize', ['clientDriverAssignment']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Client Driver Assignment id.
-     * @return void Redirects to index.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
