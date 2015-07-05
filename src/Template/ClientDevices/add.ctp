@@ -39,36 +39,61 @@
     <div class="portlet-body">
         <?= $this->Form->create($clientDevice, array('class' => 'form-horizontal')) ?>
 
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Client Name</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('client_info_id', array('options' => $deviceInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5">Client Name</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('device_info_id', array('options' => $deviceInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5 pull-left">Client Device</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('client_info_id', array('options' => $clientInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Client Device</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('device_info_id', array('options' => $clientInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5">Vehicle Type</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('vehicle_type_id', array('options' => $vehicleTypes, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5 pull-left">Device Type</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('device_type_id', array('options' => $deviceTypes, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Vehicle Type</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('vehicle_type_id', array('options' => $vehicleTypes, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5">Vehicle Subscription</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('client_device_subscription_id', array('options' => $clientDeviceSubscriptions, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group form-horizontal">
+                    <label class="control-label col-md-5 pull-left">Vehicle Model</label>
+                    <div class="col-md-6">
+                        <?php echo $this->Form->input('vehicle_model_id', array('options' => $vehicleModels, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Device Type</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('device_type_id', array('options' => $deviceTypes, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Device Subscription</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('client_device_subscription_id', array('options' => $clientDeviceSubscriptions, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
-            </div>
-        </div>
+        <hr>
 
         <div class="form-group">
             <label class="col-sm-4 control-label">Name</label>
@@ -82,7 +107,6 @@
                 <?php echo $this->Form->input('deviceid', array('label' => false, 'class'=>'form-control')); ?>
             </div>
         </div>
-
         <div class="form-group">
             <label class="col-sm-4 control-label">Active or Not</label>
             <div class="col-sm-3">
@@ -146,13 +170,7 @@
         <div class="form-group">
             <label class="col-sm-4 control-label">Tracker ID</label>
             <div class="col-sm-3">
-                <?php echo $this->Form->input('tracker_id', array('label' => false, 'class'=>'form-control')); ?>
-            </div>
-        </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Vehicle Model ID</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('vehicle_model_id', array('label' => false, 'class'=>'form-control')); ?>
+                <?php echo $this->Form->input('tracker_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
             </div>
         </div><hr>
         <div class="form-actions">

@@ -27,13 +27,6 @@ use Cake\Validation\Validator;
  */
 class ClientDevicesTable extends Table
 {
-
-    /**
-     * Initialize method
-     *
-     * @param array $config The configuration for the Table.
-     * @return void
-     */
     public function initialize(array $config)
     {
         $this->table('client_devices');
@@ -45,16 +38,20 @@ class ClientDevicesTable extends Table
             'joinType' => 'INNER'
         ]);
         $this->belongsTo('DeviceInfos', [
-            'foreignKey' => 'device_info_id'
+            'foreignKey' => 'device_info_id',
+            'joinType' => 'INNER'
         ]);
         $this->belongsTo('VehicleTypes', [
-            'foreignKey' => 'vehicle_type_id'
+            'foreignKey' => 'vehicle_type_id',
+            'joinType' => 'INNER'
         ]);
         $this->belongsTo('DeviceTypes', [
-            'foreignKey' => 'device_type_id'
+            'foreignKey' => 'device_type_id',
+            'joinType' => 'INNER'
         ]);
         $this->belongsTo('ClientDeviceSubscriptions', [
-            'foreignKey' => 'client_device_subscription_id'
+            'foreignKey' => 'client_device_subscription_id',
+            'joinType' => 'INNER'
         ]);
         $this->belongsTo('Trackers', [
             'foreignKey' => 'tracker_id',
