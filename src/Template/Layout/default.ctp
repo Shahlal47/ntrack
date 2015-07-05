@@ -471,7 +471,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li><?= $this->Html->link('Client Devices', ['controller' => 'ClientDevices', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Device Subscriptions', ['controller' => 'ClientDeviceSubscriptions', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Driver Assignments', ['controller' => 'ClientDriverAssignments', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('ClientDrivers', ['controller' => 'ClientDrivers', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Client Drivers', ['controller' => 'ClientDrivers', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Expenses', ['controller' => 'ClientExpenses', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Infos', ['controller' => 'ClientInfos', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Notifications', ['controller' => 'ClientNotifications', 'action' => 'index']); ?></li>

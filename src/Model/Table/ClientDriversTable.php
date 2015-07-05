@@ -65,7 +65,7 @@ class ClientDriversTable extends Table
             ->allowEmpty('mobile');
             
         $validator
-            ->add('join_date', 'valid', ['rule' => 'datetime'])
+            ->add('join_date', 'valid', ['rule' => 'date'])
             ->allowEmpty('join_date');
 
         return $validator;
