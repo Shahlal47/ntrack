@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/ClientDevice.php" afterPath="$PROJECT_DIR$/src/Model/Entity/ClientDevice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ClientDevicesController.php" afterPath="$PROJECT_DIR$/src/Controller/ClientDevicesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientDevicesTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientDevicesTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDevices/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDevices/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientDeviceSubscriptionsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientDeviceSubscriptionsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/view.ctp" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,92 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/add.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#13;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#14;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#15;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#16;n#div#1;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/index.ctp">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.30769232" vertical-offset="808" max-vertical-offset="1411">
-              <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+            <state vertical-scroll-proportion="-21.23077" vertical-offset="553" max-vertical-offset="1207">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp">
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8026534" vertical-offset="1063" max-vertical-offset="1666">
-              <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
-              <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.9665552" vertical-offset="0" max-vertical-offset="663">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#1;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#2;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#3;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#4;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#5;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#6;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#7;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#8;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#9;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#10;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#11;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#12;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#13;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#14;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#15;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#16;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#17;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#tr#18;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,6 +86,11 @@
         <option value="$PROJECT_DIR$/src/Template/ClientDevices/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ClientDeviceSubscriptionsTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/view.ctp" />
       </list>
     </option>
   </component>
@@ -262,7 +196,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClientDevices" />
+              <option name="myItemId" value="ClientDeviceSubscriptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClientDeviceGeofences" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,15 +274,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1311" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45373136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45373136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17106315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2126299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -366,26 +322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2975">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49253732" vertical-offset="43" max-vertical-offset="1003">
-          <caret line="20" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.307692" vertical-offset="400" max-vertical-offset="1105">
@@ -558,85 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="306" max-vertical-offset="952">
-          <caret line="40" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
-          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#1;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#2;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#3;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#4;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#5;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#6;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#7;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#8;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#9;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#10;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#11;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#12;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#13;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#14;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#15;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#16;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#17;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#tr#18;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30769232" vertical-offset="808" max-vertical-offset="1411">
-          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8026534" vertical-offset="1063" max-vertical-offset="1666">
-          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.7180763" vertical-offset="1063" max-vertical-offset="1666">
+          <caret line="186" column="14" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -645,6 +500,88 @@
             <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="3281">
+          <caret line="18" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.09950249" vertical-offset="400" max-vertical-offset="1003">
+          <caret line="20" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientDeviceSubscriptionsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.73077" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.43781096" vertical-offset="706" max-vertical-offset="1309">
+          <caret line="26" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.23077" vertical-offset="553" max-vertical-offset="1207">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1276948" vertical-offset="0" max-vertical-offset="952">
+          <caret line="40" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3532338" vertical-offset="468" max-vertical-offset="1989">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceSubscriptions/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9665552" vertical-offset="0" max-vertical-offset="663">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
