@@ -72,9 +72,7 @@
                 <tr><td class="text-right">User ID</td><td><?= h($clientInfo->user_id) ?></td></tr>
                 <tr><td class="text-right">Client Contact</td><td><?= h($clientInfo->client_contact_id) ?></td></tr>
                 <tr><td class="text-right">Client Company Logo</td><td><?= h($clientInfo->logo) ?></td></tr>
-                <tr><td class="text-right">Sensor</td><td><?= h($clientInfo->sensors) ?></td></tr>
-                <tr><td class="text-right">Number of Tracker</td><td><?= h($clientInfo->numOfTrackers) ?></td></tr>
-                <tr><td class="text-right">Number of Geo Fences</td><td><?= h($clientInfo->numOfGeoFences) ?></td></tr>
+                <tr><td class="text-right">Address</td><td><?= h($clientInfo->buyerno) ?></td></tr>
             </table>
         </div>
     </div>
