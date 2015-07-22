@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="portlet-body">
-         <?= $this->Form->create($accountType,array('class' => 'form-horizontal')) ?>
+         <?= $this->Form->create($accountType, array('class' => 'form-horizontal')) ?>
         <div class="form-group">
             <label class="col-sm-4 control-label">Name</label>
             <div class="col-sm-3">

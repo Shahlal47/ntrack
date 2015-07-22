@@ -37,9 +37,9 @@
             <td class="text-center"><?= h($accountType->description) ?></td>
             <td class="text-center"><?= $this->Number->format($accountType->months) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $accountType->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
-                <?= $this->Html->link(__(''), ['action' => 'edit', $accountType->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
-                <?= $this->Form->postLink(__(''), ['action' => 'delete', $accountType->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $accountType->id)]) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $accountType->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'edit', $accountType->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                <?= $this->Form->postLink(__(''), ['action' => 'delete', $accountType->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $accountType->id)]) ?>
             </td>
         </tr>
 
