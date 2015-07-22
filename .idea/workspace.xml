@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientNotifications/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientNotifications/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPersons/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPersons/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPersons/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPersons/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPersons/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPersons/view.ctp" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,32 +36,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1156">
+              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748">
+            <state vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="1020">
               <caret line="54" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <marker date="1437558978084" expanded="true" signature="1738:2028" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="1849:2028" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2093:2246" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2199:2246" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2383:2537" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2490:2537" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2695:2828" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2725:2828" placeholder="..." />
-                <marker date="1437558978084" expanded="true" signature="2780:2828" placeholder="..." />
+                <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <marker date="1437561586628" expanded="true" signature="1837:1996" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="1949:1996" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2315:2460" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2413:2460" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2588:2735" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2688:2735" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2865:3011" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="2964:3011" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="3272:3432" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="3385:3432" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="3578:3740" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="3693:3740" placeholder="..." />
+                <marker date="1437561586628" expanded="false" signature="3885:4039" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="3992:4039" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="4197:4330" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="4227:4330" placeholder="..." />
+                <marker date="1437561586628" expanded="true" signature="4282:4330" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/edit.ctp">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4792703" vertical-offset="0" max-vertical-offset="1054">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state vertical-scroll-proportion="2.07131" vertical-offset="468" max-vertical-offset="1836">
+              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="833">
+              <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientContacts/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/ClientAlertSettingsController.php" />
-        <option value="$PROJECT_DIR$/src/Template/ClientContacts/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Entity/ClientAlertSetting.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientAlertSettingsTable.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
         <option value="$PROJECT_DIR$/src/Controller/ClientContactsController.php" />
@@ -128,6 +169,10 @@
         <option value="$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientNotifications/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientPersons/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientPersons/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientPersons/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp" />
       </list>
     </option>
   </component>
@@ -232,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClientNotifications" />
+              <option name="myItemId" value="ClientPersons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AccountTypes" />
+              <option name="myItemId" value="ClientNotifications" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,34 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/Entity/ClientAlertSetting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11038961" vertical-offset="0" max-vertical-offset="616">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ClientAlertSettingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31011608" vertical-offset="0" max-vertical-offset="603">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientAlertSettingsTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35876623" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ClientContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9718076" vertical-offset="400" max-vertical-offset="1326">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientContactDevices/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="935">
@@ -664,17 +681,17 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#12;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -700,26 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5074627" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/AccountTypes/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1276948" vertical-offset="0" max-vertical-offset="833">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -732,22 +733,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748">
-          <caret line="54" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <marker date="1437558978084" expanded="true" signature="1738:2028" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="1849:2028" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2093:2246" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2199:2246" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2383:2537" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2490:2537" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2695:2828" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2725:2828" placeholder="..." />
-            <marker date="1437558978084" expanded="true" signature="2780:2828" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.64842457" vertical-offset="0" max-vertical-offset="884">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8175788" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,6 +753,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4792703" vertical-offset="0" max-vertical-offset="1054">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="54" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="833">
+          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <marker date="1437561586628" expanded="true" signature="1837:1996" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="1949:1996" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2315:2460" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2413:2460" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2588:2735" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2688:2735" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2865:3011" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="2964:3011" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="3272:3432" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="3385:3432" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="3578:3740" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="3693:3740" placeholder="..." />
+            <marker date="1437561586628" expanded="false" signature="3885:4039" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="3992:4039" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="4197:4330" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="4227:4330" placeholder="..." />
+            <marker date="1437561586628" expanded="true" signature="4282:4330" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.07131" vertical-offset="468" max-vertical-offset="1836">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
