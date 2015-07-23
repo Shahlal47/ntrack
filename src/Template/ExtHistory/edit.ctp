@@ -1,29 +1,70 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Form->postLink(
-                __('Delete'),
-                ['action' => 'delete', $extHistory->id],
-                ['confirm' => __('Are you sure you want to delete # {0}?', $extHistory->id)]
-            )
-        ?></li>
-        <li><?= $this->Html->link(__('List Ext History'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Client Device Subscriptions'), ['controller' => 'ClientDeviceSubscriptions', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Client Device Subscription'), ['controller' => 'ClientDeviceSubscriptions', 'action' => 'add']) ?></li>
-    </ul>
-</div>
-<div class="extHistory form large-10 medium-9 columns">
-    <?= $this->Form->create($extHistory) ?>
-    <fieldset>
-        <legend><?= __('Edit Ext History') ?></legend>
-        <?php
-            echo $this->Form->input('memo_number');
-            echo $this->Form->input('ref_number');
-            echo $this->Form->input('from_date');
-            echo $this->Form->input('to_date');
-            echo $this->Form->input('client_device_subscriptions_id', ['options' => $clientDeviceSubscriptions]);
-        ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
-    <?= $this->Form->end() ?>
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase"><?= __('Edit Ext History') ?></span>
+        </div>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">
+                    Action<i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li>
+                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $extHistory->id],
+                            ['confirm' => __('Are you sure you want to delete # {0}?', $extHistory->id)]) ?>
+                    </li>
+                    <li><?= $this->Html->link(__('List Ext History'), ['action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Device Subscriptions'), ['controller' => 'ClientDeviceSubscriptions', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Device Subscription'), ['controller' => 'ClientDeviceSubscriptions', 'action' => 'add']) ?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <?= $this->Form->create($extHistory, array('class' => 'form-horizontal')) ?>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Client Device Subscription</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('client_device_subscriptions_id', array(
+                    'label' => false,
+                    'type' => 'select',
+                    'class'=>'form-control',
+                    'options' => $clientDeviceSubscriptions));
+                ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Memo Number</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('memo_number', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Reference Number</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('ref_number', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">From Date</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('from_date', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">To Date</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('to_date', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div><hr>
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-9">
+                    <?= $this->Form->button(__('Update'),['class'=>'btn btn-primary']) ?>
+                    <?= $this->Form->button(__('Cancel'),['class'=>'btn btn-danger']) ?>
+                </div>
+            </div>
+        </div>
+        <?= $this->Form->end() ?>
+    </div>
 </div>
