@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/ClientVehicleAssignment.php" afterPath="$PROJECT_DIR$/src/Model/Entity/ClientVehicleAssignment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ClientVehicleAssignmentsController.php" afterPath="$PROJECT_DIR$/src/Controller/ClientVehicleAssignmentsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Controller/ClientVehicleAssignmentsControllerTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/ClientVehicleAssignmentsControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/ClientVehicleAssignmentsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/ClientVehicleAssignmentsFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientVehicleAssignmentsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientVehicleAssignmentsTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/ClientVehicleAssignmentsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/ClientVehicleAssignmentsTableTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientTypes/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicles/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicles/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicles/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicles/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicles/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicles/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,18 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/add.ctp">
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54892206" vertical-offset="910" max-vertical-offset="2074">
-              <caret line="73" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-              <folding>
-                <marker date="1437629741628" expanded="true" signature="4322:4473" placeholder="..." />
-                <marker date="1437629741628" expanded="true" signature="4426:4473" placeholder="..." />
-                <marker date="1437629741628" expanded="true" signature="5298:5431" placeholder="..." />
-                <marker date="1437629741628" expanded="true" signature="5328:5431" placeholder="..." />
-                <marker date="1437629741628" expanded="true" signature="5383:5431" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="1.973466" vertical-offset="0" max-vertical-offset="1292">
+              <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,9 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientDrivers/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientDrivers/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/ClientDriverAssignmentsController.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientDriverAssignmentsTable.php" />
         <option value="$PROJECT_DIR$/src/Model/Entity/ClientDriverAssignment.php" />
         <option value="$PROJECT_DIR$/src/Template/ClientDriverAssignments/add.ctp" />
@@ -120,6 +101,9 @@
         <option value="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientVehicles/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientVehicles/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp" />
       </list>
     </option>
   </component>
@@ -225,7 +209,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
+              <option name="myItemId" value="ClientVehicles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,53 +235,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trackerliveview" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="preferences.editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -390,27 +334,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Controller/ClientDriverAssignmentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4792703" vertical-offset="0" max-vertical-offset="603">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDriverAssignments/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9303483" vertical-offset="663" max-vertical-offset="1377">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDriverAssignments/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0016584" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="71" column="88" selection-start-line="71" selection-start-column="88" selection-end-line="71" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientDriverAssignments/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.961538" vertical-offset="714" max-vertical-offset="1343">
@@ -696,16 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="901">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientTypes/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1037">
@@ -719,16 +632,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.986733" vertical-offset="0" max-vertical-offset="748">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,15 +677,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54892206" vertical-offset="910" max-vertical-offset="2074">
-          <caret line="73" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.6915423" vertical-offset="0" max-vertical-offset="2074">
+          <caret line="60" column="75" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.199005" vertical-offset="2066" max-vertical-offset="2669">
+          <caret line="103" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="6" />
           <folding>
-            <marker date="1437629741628" expanded="true" signature="4322:4473" placeholder="..." />
-            <marker date="1437629741628" expanded="true" signature="4426:4473" placeholder="..." />
-            <marker date="1437629741628" expanded="true" signature="5298:5431" placeholder="..." />
-            <marker date="1437629741628" expanded="true" signature="5328:5431" placeholder="..." />
-            <marker date="1437629741628" expanded="true" signature="5383:5431" placeholder="..." />
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="3162">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54892206" vertical-offset="77" max-vertical-offset="1343">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6351576" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="58" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.973466" vertical-offset="0" max-vertical-offset="1292">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
