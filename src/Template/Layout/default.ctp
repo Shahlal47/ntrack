@@ -473,10 +473,10 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li><?= $this->Html->link('Client Driver Assignments', ['controller' => 'ClientDriverAssignments', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Drivers', ['controller' => 'ClientDrivers', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Expenses', ['controller' => 'ClientExpenses', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Client Infos', ['controller' => 'ClientInfos', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Client Information', ['controller' => 'ClientInfos', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Notifications', ['controller' => 'ClientNotifications', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Persons', ['controller' => 'ClientPersons', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Client Publicids', ['controller' => 'ClientPublicids', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Client Public ID', ['controller' => 'ClientPublicids', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Reports', ['controller' => 'ClientReports', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Trip Paths', ['controller' => 'ClientTripPaths', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Client Types', ['controller' => 'ClientTypes', 'action' => 'index']); ?></li>
@@ -485,13 +485,13 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li><?= $this->Html->link('Comments', ['controller' => 'Comments', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Company Types', ['controller' => 'CompanyTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Device Alerts', ['controller' => 'DeviceAlerts', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Device Infos', ['controller' => 'DeviceInfos', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Device Information', ['controller' => 'DeviceInfos', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Device Types', ['controller' => 'DeviceTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Expense Types', ['controller' => 'ExpenseTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Ext History', ['controller' => 'ExtHistory', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Fuel Types', ['controller' => 'FuelTypes', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Geofences', ['controller' => 'Geofences', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Geofence Types', ['controller' => 'GeofenceTypes', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Geo Fences', ['controller' => 'Geofences', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Geo Fence Types', ['controller' => 'GeofenceTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Notification Types', ['controller' => 'NotificationTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Poi Types', ['controller' => 'PoiTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Report Settings', ['controller' => 'ReportSettings', 'action' => 'index']); ?></li>

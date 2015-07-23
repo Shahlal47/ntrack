@@ -1,48 +1,53 @@
 <div class="portlet light">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Comment'), ['action' => 'add']) ?></li>
-    </ul>
-</div>
-<div class="portlet light">
-    <table class="table table-bordered">
-    <thead>
-        <tr>
-            <th><?= $this->Paginator->sort('id') ?></th>
-            <th><?= $this->Paginator->sort('MYUSER') ?></th>
-            <th><?= $this->Paginator->sort('EMAIL') ?></th>
-            <th><?= $this->Paginator->sort('WEBPAGE') ?></th>
-            <th><?= $this->Paginator->sort('DATUM') ?></th>
-            <th><?= $this->Paginator->sort('SUMMARY') ?></th>
-            <th><?= $this->Paginator->sort('COMMENTS') ?></th>
-            <th class="actions"><?= __('Actions') ?></th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($comments as $comment): ?>
-        <tr>
-            <td><?= $this->Number->format($comment->id) ?></td>
-            <td><?= h($comment->MYUSER) ?></td>
-            <td><?= h($comment->EMAIL) ?></td>
-            <td><?= h($comment->WEBPAGE) ?></td>
-            <td><?= h($comment->DATUM) ?></td>
-            <td><?= h($comment->SUMMARY) ?></td>
-            <td><?= h($comment->COMMENTS) ?></td>
-            <td class="actions">
-                <?= $this->Html->link(__(''), ['action' => 'view', $comment->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
-                <?= $this->Html->link(__(''), ['action' => 'edit', $comment->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
-                <?= $this->Form->postLink(__(''), ['action' => 'delete', $comment->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $comment->id)]) ?>
-            </td>
-        </tr>
-
-    <?php endforeach; ?>
-    </tbody>
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase">Comments List</span>
+        </div>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">
+                    Action <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('New Comment'), ['action' => 'add']) ?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-center"><?= $this->Paginator->sort('Email') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Web Page') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Date') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Summary') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Comments') ?></th>
+                    <th class="actions text-center"><?= __('Actions') ?></th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($comments as $comment): ?>
+                <tr>
+                    <td class="text-center"><?= h($comment->EMAIL) ?></td>
+                    <td class="text-center"><?= h($comment->WEBPAGE) ?></td>
+                    <td class="text-center"><?= h($comment->DATUM) ?></td>
+                    <td class="text-center"><?= h($comment->SUMMARY) ?></td>
+                    <td class="text-center"><?= h($comment->COMMENTS) ?></td>
+                    <td class="actions text-center">
+                        <?= $this->Html->link(__(''), ['action' => 'view', $comment->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'edit', $comment->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $comment->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $comment->id)]) ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
     </table>
-    <div class="paginator">
+    <div class="paginator text-center">
         <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->prev('< ' . __('Previous')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('Next') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>

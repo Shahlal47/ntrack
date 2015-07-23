@@ -1,34 +1,30 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('Edit Comment'), ['action' => 'edit', $comment->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Comment'), ['action' => 'delete', $comment->id], ['confirm' => __('Are you sure you want to delete # {0}?', $comment->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Comments'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Comment'), ['action' => 'add']) ?> </li>
-    </ul>
-</div>
-<div class="comments view large-10 medium-9 columns">
-    <h2><?= h($comment->id) ?></h2>
-    <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('MYUSER') ?></h6>
-            <p><?= h($comment->MYUSER) ?></p>
-            <h6 class="subheader"><?= __('EMAIL') ?></h6>
-            <p><?= h($comment->EMAIL) ?></p>
-            <h6 class="subheader"><?= __('WEBPAGE') ?></h6>
-            <p><?= h($comment->WEBPAGE) ?></p>
-            <h6 class="subheader"><?= __('SUMMARY') ?></h6>
-            <p><?= h($comment->SUMMARY) ?></p>
-            <h6 class="subheader"><?= __('COMMENTS') ?></h6>
-            <p><?= h($comment->COMMENTS) ?></p>
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase">Comments Details</span>
         </div>
-        <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('Id') ?></h6>
-            <p><?= $this->Number->format($comment->id) ?></p>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('Edit Comment'), ['action' => 'edit', $comment->id]) ?> </li>
+                    <li><?= $this->Form->postLink(__('Delete Comment'), ['action' => 'delete', $comment->id], ['confirm' => __('Are you sure you want to delete # {0}?', $comment->id)]) ?> </li>
+                    <li><?= $this->Html->link(__('List Comments'), ['action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('New Comment'), ['action' => 'add']) ?> </li>
+                </ul>
+            </div>
         </div>
-        <div class="large-2 columns dates end">
-            <h6 class="subheader"><?= __('DATUM') ?></h6>
-            <p><?= h($comment->DATUM) ?></p>
+    </div>
+    <div class="portlet-body">
+        <div class="panel-body">
+            <table class="table table-bordered" align="center">
+                <tr><td class="text-right">Date</td><td><?= h($comment->DATUM) ?></td></tr>
+                <tr><td class="text-right">My User</td><td><?= h($comment->MYUSER) ?></td></tr>
+                <tr><td class="text-right">Email</td><td><?= h($comment->EMAIL) ?></td></tr>
+                <tr><td class="text-right">Web Page</td><td><<?= h($comment->WEBPAGE) ?></td></tr>
+                <tr><td class="text-right">Summary</td><td><?= h($comment->SUMMARY) ?></td></tr>
+                <tr><td class="text-right">Comments</td><td><?= h($comment->COMMENTS) ?></td></tr>
+            </table>
         </div>
     </div>
 </div>
