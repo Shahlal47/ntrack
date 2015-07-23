@@ -15,18 +15,18 @@ class ClientContact extends Entity
      * @var array
      */
     protected $_accessible = [
+        'user_id' => true,
         'client_info_id' => true,
-        'mobile' => true,
-        'email' => true,
         'name' => true,
         'nationalid' => true,
-        'user_id' => true,
+        'email' => true,
+        'mobile' => true,
         'phone' => true,
         'fax' => true,
         'mobile_home' => true,
         'mobile_office' => true,
-        'client_infos' => true,
         'users' => true,
+        'client_infos' => true,
         'client_alert_settings' => true,
         'client_contact_devices' => true,
         'client_device_geofences' => true,

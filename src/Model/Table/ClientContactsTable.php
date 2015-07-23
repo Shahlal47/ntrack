@@ -10,17 +10,19 @@ use Cake\Validation\Validator;
 /**
  * ClientContacts Model
  *
- * @property \Cake\ORM\Association\BelongsTo $ClientInfos
  * @property \Cake\ORM\Association\BelongsTo $Users
+ * @property \Cake\ORM\Association\BelongsTo $ClientInfos
  * @property \Cake\ORM\Association\HasMany $ClientAlertSettings
  * @property \Cake\ORM\Association\HasMany $ClientContactDevices
  * @property \Cake\ORM\Association\HasMany $ClientDeviceGeofences
  * @property \Cake\ORM\Association\HasMany $ClientDriverAssignments
  * @property \Cake\ORM\Association\HasMany $ClientDrivers
  * @property \Cake\ORM\Association\HasMany $ClientExpenses
+// * @property \Cake\ORM\Association\HasMany $ClientInfos
  * @property \Cake\ORM\Association\HasMany $ClientTripPaths
  * @property \Cake\ORM\Association\HasMany $ClientVehicleAssignments
  * @property \Cake\ORM\Association\HasMany $Geofences
+// * @property \Cake\ORM\Association\HasMany $Users
  */
 class ClientContactsTable extends Table
 {
@@ -30,14 +32,12 @@ class ClientContactsTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
         $this->addBehavior('Timestamp');
-        $this->belongsTo('ClientInfos', [
-            'foreignKey' => 'client_info_id',
-            'joinType' => 'INNER'
-        ]);
-        $this->belongsTo('Users', [
-            'foreignKey' => 'user_id',
-            'joinType' => 'INNER'
-        ]);
+//        $this->belongsTo('Users', [
+//            'foreignKey' => 'user_id'
+//        ]);
+//        $this->belongsTo('ClientInfos', [
+//            'foreignKey' => 'client_info_id'
+//        ]);
         $this->hasMany('ClientAlertSettings', [
             'foreignKey' => 'client_contact_id'
         ]);
@@ -80,18 +80,18 @@ class ClientContactsTable extends Table
             ->allowEmpty('id', 'create');
             
         $validator
-            ->allowEmpty('mobile');
+            ->requirePresence('name', 'create')
+            ->notEmpty('name');
+            
+        $validator
+            ->allowEmpty('nationalid');
             
         $validator
             ->add('email', 'valid', ['rule' => 'email'])
             ->allowEmpty('email');
             
         $validator
-            ->requirePresence('name', 'create')
-            ->notEmpty('name');
-            
-        $validator
-            ->allowEmpty('nationalid');
+            ->allowEmpty('mobile');
             
         $validator
             ->allowEmpty('phone');
@@ -111,8 +111,8 @@ class ClientContactsTable extends Table
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->isUnique(['email']));
-        $rules->add($rules->existsIn(['client_info_id'], 'ClientInfos'));
         $rules->add($rules->existsIn(['user_id'], 'Users'));
+        $rules->add($rules->existsIn(['client_info_id'], 'ClientInfos'));
         return $rules;
     }
 }

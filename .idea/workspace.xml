@@ -8,13 +8,68 @@
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\edit.ctp" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\index.ctp" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\view.ctp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/TransferHistory.php" afterPath="$PROJECT_DIR$/src/Model/Entity/TransferHistory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/TransferHistoryFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/TransferHistoryFixture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/ClientContact.php" afterPath="$PROJECT_DIR$/src/Model/Entity/ClientContact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ClientContactsController.php" afterPath="$PROJECT_DIR$/src/Controller/ClientContactsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Controller/ClientContactsControllerTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/ClientContactsControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/ClientContactsFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/ClientContactsFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Model/Table/ClientContactsTableTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Model/Table/ClientContactsTableTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientContacts/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientContacts/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/FuelTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/FuelTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/GeofenceTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/GeofenceTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Geofences/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Geofences/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/NotificationTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/NotificationTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/PoiTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/PoiTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ReportSettings/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ReportSettings/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SensorTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/SensorTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SystemInfo/add.ctp" afterPath="$PROJECT_DIR$/src/Template/SystemInfo/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserLogs/add.ctp" afterPath="$PROJECT_DIR$/src/Template/UserLogs/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/UserTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleModels/add.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleModels/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleTypes/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientContacts/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientContacts/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/FuelTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/FuelTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/GeofenceTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/GeofenceTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Geofences/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Geofences/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/NotificationTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/NotificationTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/PoiTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/PoiTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ReportSettings/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ReportSettings/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SensorTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/SensorTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SystemInfo/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/SystemInfo/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserLogs/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/UserLogs/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/UserTypes/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleModels/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleModels/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleTypes/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientContacts/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientContacts/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ExtHistory/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ExtHistory/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ExtHistory/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ExtHistory/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/FuelTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/FuelTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/GeofenceTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/GeofenceTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Geofences/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Geofences/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/NotificationTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/NotificationTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/PoiTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/PoiTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ReportSettings/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ReportSettings/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SensorTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/SensorTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SystemInfo/index.ctp" afterPath="$PROJECT_DIR$/src/Template/SystemInfo/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserLogs/index.ctp" afterPath="$PROJECT_DIR$/src/Template/UserLogs/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/UserTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleModels/index.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleModels/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleTypes/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientContacts/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientContacts/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/FuelTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/FuelTypes/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/GeofenceTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/GeofenceTypes/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Geofences/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Geofences/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/PoiTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/PoiTypes/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ReportSettings/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ReportSettings/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SensorTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/SensorTypes/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/SystemInfo/view.ctp" afterPath="$PROJECT_DIR$/src/Template/SystemInfo/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserLogs/view.ctp" afterPath="$PROJECT_DIR$/src/Template/UserLogs/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/UserTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/UserTypes/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleModels/view.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleModels/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/VehicleTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/VehicleTypes/view.ctp" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,34 +100,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/add.ctp">
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="748">
-              <caret line="19" column="82" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.8308458" vertical-offset="213" max-vertical-offset="816">
+              <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#tr#8;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#tr#9;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/edit.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="850">
-              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08457711" vertical-offset="0" max-vertical-offset="833">
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,11 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientTypes/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientTypes/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientTypes/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientTypes/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Entity/ClientVehicleAssignment.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientVehicleAssignmentsTable.php" />
         <option value="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientVehicleAssignments/view.ctp" />
@@ -132,10 +164,15 @@
         <option value="$PROJECT_DIR$/src/Controller/TransferHistoriesController.php" />
         <option value="$PROJECT_DIR$/src/Template/ExtHistory/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/TransferHistories/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientContacts/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/TransferHistories/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/TransferHistories/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/TransferHistories/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientContacts/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientDevices/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/ClientContacts/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientContacts/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientContacts/view.ctp" />
       </list>
     </option>
   </component>
@@ -241,29 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TransferHistories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExtHistory" />
+              <option name="myItemId" value="ClientDevices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,6 +301,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ClientContacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,7 +385,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1822542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23741007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -388,54 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/Entity/ClientVehicleAssignment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27597404" vertical-offset="0" max-vertical-offset="616">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientTypes/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientTypes/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0149254" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientInfos/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1973466" vertical-offset="867" max-vertical-offset="2397">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="69" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientVehicleAssignmentsTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.987013" vertical-offset="463" max-vertical-offset="1343">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientVehicleAssignments/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8026534" vertical-offset="1573" max-vertical-offset="2176">
@@ -747,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08457711" vertical-offset="731" max-vertical-offset="1360">
-          <caret line="46" column="80" selection-start-line="46" selection-start-column="80" selection-end-line="46" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7048093" vertical-offset="357" max-vertical-offset="1139">
@@ -771,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.76923" vertical-offset="0" max-vertical-offset="850">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ExtHistory/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5920398" vertical-offset="0" max-vertical-offset="714">
@@ -787,9 +756,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08457711" vertical-offset="0" max-vertical-offset="833">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2404643" vertical-offset="0" max-vertical-offset="850">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="748">
           <caret line="19" column="82" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="82" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -797,11 +782,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/TransferHistories/view.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08457711" vertical-offset="0" max-vertical-offset="833">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state vertical-scroll-proportion="1.6915423" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8555195" vertical-offset="0" max-vertical-offset="2040">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.862355" vertical-offset="2270" max-vertical-offset="3281">
+          <caret line="32" column="70" selection-start-line="0" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#7211#7260#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.115385" vertical-offset="1216" max-vertical-offset="2023">
+          <caret line="113" column="6" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8175788" vertical-offset="0" max-vertical-offset="1989">
+          <caret line="29" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientContacts/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8308458" vertical-offset="213" max-vertical-offset="816">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#tr#8;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#tr#9;n#table#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

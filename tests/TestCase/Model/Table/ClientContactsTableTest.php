@@ -36,7 +36,7 @@ class ClientContactsTableTest extends TestCase
         'app.client_driver_assignments',
         'app.client_drivers',
         'app.client_vehicle_assignments',
-        'app.client_trips',
+        'app.client_trip_paths',
         'app.vehicle_models',
         'app.client_device_subscriptions',
         'app.account_types',
@@ -52,8 +52,7 @@ class ClientContactsTableTest extends TestCase
         'app.client_publicids',
         'app.client_notifications',
         'app.notification_types',
-        'app.client_reports',
-        'app.client_trip_paths'
+        'app.client_reports'
     ];
 
     /**

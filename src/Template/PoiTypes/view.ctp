@@ -1,24 +1,28 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('Edit Poi Type'), ['action' => 'edit', $poiType->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Poi Type'), ['action' => 'delete', $poiType->id], ['confirm' => __('Are you sure you want to delete # {0}?', $poiType->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Poi Types'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Poi Type'), ['action' => 'add']) ?> </li>
-    </ul>
-</div>
-<div class="poiTypes view large-10 medium-9 columns">
-    <h2><?= h($poiType->name) ?></h2>
-    <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Name') ?></h6>
-            <p><?= h($poiType->name) ?></p>
-            <h6 class="subheader"><?= __('Marker') ?></h6>
-            <p><?= h($poiType->marker) ?></p>
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase">Poi Types Details</span>
         </div>
-        <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('Id') ?></h6>
-            <p><?= $this->Number->format($poiType->id) ?></p>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('Edit Poi Type'), ['action' => 'edit', $poiType->id]) ?> </li>
+                    <li><?= $this->Form->postLink(__('Delete Poi Type'), ['action' => 'delete', $poiType->id], ['confirm' => __('Are you sure you want to delete # {0}?', $poiType->id)]) ?> </li>
+                    <li><?= $this->Html->link(__('List Poi Types'), ['action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('New Poi Type'), ['action' => 'add']) ?> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="panel-body">
+            <table class="table table-bordered" align="center">
+                <tr><td class="text-right">Name</td><td><?= h($poiType->name) ?></td></tr>
+                <tr><td class="text-right">Marker</td><td><?= h($poiType->marker) ?></td></tr>
+                <tr><td class="text-right">Id</td><td><?= $this->Number->format($poiType->id) ?></td></tr>
+            </table>
         </div>
     </div>
 </div>
+

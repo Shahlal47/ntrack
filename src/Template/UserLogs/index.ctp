@@ -44,7 +44,7 @@
             </td>
             <td><?= h($userLog->created) ?></td>
             <td class="actions">
-                <?= $this->Html->link(__(''), ['action' => 'view', $userLog->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $userLog->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $userLog->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $userLog->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $userLog->id)]) ?>
             </td>

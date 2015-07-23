@@ -1,4 +1,3 @@
-
 <div class="portlet light">
     <div class="portlet-title">
         <div class="caption font-purple-plum">
@@ -6,15 +5,13 @@
         </div>
         <div class="actions">
             <div class="btn-group">
-                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">
-                    Action <i class="fa fa-angle-down"></i>
-                </a>
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
                 <ul class="dropdown-menu pull-right" role="menu">
                     <li><?= $this->Html->link(__('List Client Contacts'), ['action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('List Client Infos'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Client Info'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Information'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Information'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Alert Settings'), ['controller' => 'ClientAlertSettings', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Alert Setting'), ['controller' => 'ClientAlertSettings', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Contact Devices'), ['controller' => 'ClientContactDevices', 'action' => 'index']) ?></li>
@@ -37,91 +34,90 @@
             </div>
         </div>
     </div>
-<!--    <div class="portlet-body">-->
-<!--            --><?//= $this->Form->create($clientContact,['class' => 'form-horizontal']) ?>
-<!--    <fieldset>-->
-<!--        --><?php
-////            echo $this->Form->input('client_info_id',['class'=>'form-control']);
-//            echo $this->Form->input('mobile',['class'=>'form-control']);
-//            echo $this->Form->input('email',['class'=>'form-control']);
-//            echo $this->Form->input('name',['class'=>'form-control']);
-//            echo $this->Form->input('nationalid',['class'=>'form-control']);
-////            echo $this->Form->input('user_id',['class'=>'form-control']);
-//            echo $this->Form->input('phone',['class'=>'form-control']);
-//            echo $this->Form->input('fax',['class'=>'form-control']);
-//            echo $this->Form->input('mobile_home',['class'=>'form-control']);
-//            echo $this->Form->input('mobile_office',['class'=>'form-control']);
-//        ?>
-<!--    </fieldset>-->
-<!--    --><?//= $this->Form->button(__('Submit'),['class'=>'btn btn-primary']) ?>
-<!--    --><?//= $this->Form->end() ?><!--    -->
-<!--    </div>-->
-</div>
-
-
-<div class="portlet-body">
-    <?= $this->Form->create($clientContact, array('class' => 'form-horizontal')) ?>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client Name</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('client_info_id', array('options' => $clientInfos, 'label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client Contact Name</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('name', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client National ID</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('nationalid', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client Email</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('email', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client Mobile</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('mobile', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Client Telephone</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('phone', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Fax Number</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('fax', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Home Mobile</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('mobile_home', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="col-sm-4 control-label">Office Mobile</label>
-        <div class="col-sm-4">
-            <?php echo $this->Form->input('mobile_office', array('label' => false, 'class'=>'form-control')); ?>
-        </div>
-    </div><hr>
-    <div class="form-actions">
-        <div class="row">
-            <div class="col-md-offset-4 col-md-9">
-                <?= $this->Form->button(__('Submit'),['class'=>'btn btn-primary']) ?>
-                <?= $this->Form->button(__('Cancel'),['class'=>'btn btn-danger']) ?>
+    <div class="portlet-body">
+        <?= $this->Form->create($clientContact, array('class' => 'form-horizontal')) ?>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Name</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('name', array('label' => false, 'class'=>'form-control')); ?>
             </div>
         </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">National ID</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('nationalid', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Email</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('email', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Mobile Number</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('mobile', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Phone Number</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('phone', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Fax</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('fax', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Mobile Home</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('mobile_home', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Mobile Office</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('mobile_office', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-4 control-label">User ID</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('user_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Client Information</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('client_info_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div><hr>
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-9">
+                    <?= $this->Form->button(__('Submit'),['class'=>'btn btn-primary']) ?>
+                    <?= $this->Form->button(__('Cancel'),['class'=>'btn btn-danger']) ?>
+                </div>
+            </div>
+        </div>
+        <?= $this->Form->end() ?>
     </div>
-    <?= $this->Form->end() ?>
 </div>
+
+<!--        --><?php
+//            echo $this->Form->input('user_id');
+//            echo $this->Form->input('client_info_id');
+//            echo $this->Form->input('name');
+//            echo $this->Form->input('nationalid');
+//            echo $this->Form->input('email');
+//            echo $this->Form->input('mobile');
+//            echo $this->Form->input('phone');
+//            echo $this->Form->input('fax');
+//            echo $this->Form->input('mobile_home');
+//            echo $this->Form->input('mobile_office');
+//        ?>

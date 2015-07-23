@@ -1,24 +1,30 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('Edit Sensor Type'), ['action' => 'edit', $sensorType->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Sensor Type'), ['action' => 'delete', $sensorType->id], ['confirm' => __('Are you sure you want to delete # {0}?', $sensorType->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Sensor Types'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Sensor Type'), ['action' => 'add']) ?> </li>
-    </ul>
-</div>
-<div class="sensorTypes view large-10 medium-9 columns">
-    <h2><?= h($sensorType->name) ?></h2>
-    <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Name') ?></h6>
-            <p><?= h($sensorType->name) ?></p>
-            <h6 class="subheader"><?= __('Description') ?></h6>
-            <p><?= h($sensorType->description) ?></p>
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase">Sensor Types Details</span>
         </div>
-        <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('Id') ?></h6>
-            <p><?= $this->Number->format($sensorType->id) ?></p>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('Edit Sensor Type'), ['action' => 'edit', $sensorType->id]) ?> </li>
+                    <li><?= $this->Form->postLink(__('Delete Sensor Type'), ['action' => 'delete', $sensorType->id], ['confirm' => __('Are you sure you want to delete # {0}?', $sensorType->id)]) ?> </li>
+                    <li><?= $this->Html->link(__('List Sensor Types'), ['action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('New Sensor Type'), ['action' => 'add']) ?> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <div class="panel-body">
+            <table class="table table-bordered" align="center">
+                <tr><td class="text-right">Name</td><td><?= h($sensorType->name) ?></td></tr>
+                <tr><td class="text-right">Description</td><td><?=  h($sensorType->description) ?></td></tr>
+                <tr><td class="text-right">Id</td><td><?= $this->Number->format($sensorType->id) ?></td></tr>
+            </table>
         </div>
     </div>
 </div>
+
+
+

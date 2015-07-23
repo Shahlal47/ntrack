@@ -58,8 +58,8 @@ class ClientContactsFixture extends TestFixture
             'fax' => 'Lorem ipsum dolor ',
             'mobile_home' => 'Lorem ipsum dolor sit amet',
             'mobile_office' => 'Lorem ipsum dolor sit amet',
-            'created' => '2015-07-04 09:55:42',
-            'modified' => '2015-07-04 09:55:42'
+            'created' => '2015-07-23 12:32:08',
+            'modified' => '2015-07-23 12:32:08'
         ],
     ];
 }
