@@ -1,25 +1,66 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('List Device Infos'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Device Types'), ['controller' => 'DeviceTypes', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Device Type'), ['controller' => 'DeviceTypes', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Client Devices'), ['controller' => 'ClientDevices', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Client Device'), ['controller' => 'ClientDevices', 'action' => 'add']) ?></li>
-    </ul>
-</div>
-<div class="deviceInfos form large-10 medium-9 columns">
-    <?= $this->Form->create($deviceInfo) ?>
-    <fieldset>
-        <legend><?= __('Add Device Info') ?></legend>
-        <?php
-            echo $this->Form->input('name');
-            echo $this->Form->input('description');
-            echo $this->Form->input('device_type_id', ['options' => $deviceTypes]);
-            echo $this->Form->input('brand');
-            echo $this->Form->input('sensors');
-        ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
-    <?= $this->Form->end() ?>
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase"><?= __('Add Device Information') ?></span>
+        </div>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('List Device Information'), ['action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('List Device Types'), ['controller' => 'DeviceTypes', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Device Type'), ['controller' => 'DeviceTypes', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Devices'), ['controller' => 'ClientDevices', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Device'), ['controller' => 'ClientDevices', 'action' => 'add']) ?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <?= $this->Form->create($deviceInfo, array('class' => 'form-horizontal')) ?>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Device Type</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('device_type_id', array(
+                    'label' => false,
+                    'empty' => true,
+                    'class'=>'form-control',
+                    'options' => $deviceTypes));
+                ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Name</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('name', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Description</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('description', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Brand Name</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('brand', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Sensors</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('sensors', array('label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div><hr>
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-9">
+                    <?= $this->Form->button(__('Submit'),['class'=>'btn btn-primary']) ?>
+                    <?= $this->Form->button(__('Cancel'),['class'=>'btn btn-danger']) ?>
+                </div>
+            </div>
+        </div>
+        <?= $this->Form->end() ?>
+    </div>
 </div>
