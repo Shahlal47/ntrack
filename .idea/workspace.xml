@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/CompanyTypes/add.ctp" afterPath="$PROJECT_DIR$/src/Template/CompanyTypes/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/CompanyTypes/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/CompanyTypes/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/CompanyTypes/index.ctp" afterPath="$PROJECT_DIR$/src/Template/CompanyTypes/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Comments/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Comments/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/CompanyTypes/view.ctp" afterPath="$PROJECT_DIR$/src/Template/CompanyTypes/view.ctp" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\Template.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/DeviceAlerts/add.ctp" afterPath="$PROJECT_DIR$/src/Template/DeviceAlerts/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/DeviceAlerts/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/DeviceAlerts/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/DeviceAlerts/index.ctp" afterPath="$PROJECT_DIR$/src/Template/DeviceAlerts/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/DeviceAlerts/view.ctp" afterPath="$PROJECT_DIR$/src/Template/DeviceAlerts/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/edit.ctp">
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/DeviceAlerts/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1276948" vertical-offset="0" max-vertical-offset="850">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.80099505" vertical-offset="237" max-vertical-offset="840">
+              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -55,10 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientInfos/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/AccountTypes/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientInfos/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientInfos/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientNotifications/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp" />
@@ -106,6 +103,10 @@
         <option value="$PROJECT_DIR$/src/Template/CompanyTypes/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/CompanyTypes/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/CompanyTypes/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/DeviceAlerts/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/DeviceAlerts/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/DeviceAlerts/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/DeviceAlerts/view.ctp" />
       </list>
     </option>
   </component>
@@ -190,6 +191,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeviceAlerts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,34 +337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/AccountTypes/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/AccountTypes/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87396353" vertical-offset="255" max-vertical-offset="884">
-          <caret line="46" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4792703" vertical-offset="0" max-vertical-offset="1054">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientNotifications/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.153847" vertical-offset="0" max-vertical-offset="833">
-          <caret line="40" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9021559" vertical-offset="570" max-vertical-offset="1836">
@@ -706,26 +701,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/add.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/DeviceAlerts/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63349915" vertical-offset="179" max-vertical-offset="782">
-          <caret line="33" column="89" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.26699835" vertical-offset="536" max-vertical-offset="1139">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/view.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5638474" vertical-offset="0" max-vertical-offset="603">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.6766169" vertical-offset="153" max-vertical-offset="782">
+          <caret line="33" column="89" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1276948" vertical-offset="0" max-vertical-offset="850">
+        <state vertical-scroll-proportion="-17.653847" vertical-offset="221" max-vertical-offset="850">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/DeviceAlerts/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="408" max-vertical-offset="1037">
+          <caret line="69" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437645132154" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/DeviceAlerts/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.26923" vertical-offset="757" max-vertical-offset="1360">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="603">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/DeviceAlerts/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80099505" vertical-offset="237" max-vertical-offset="840">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
