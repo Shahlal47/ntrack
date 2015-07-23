@@ -9,9 +9,9 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                  <li><?= $this->Html->link(__('New Company Type'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Client Infos'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Client Info'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>  
+                    <li><?= $this->Html->link(__('New Company Type'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Infos'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Info'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>
@@ -21,37 +21,30 @@
       <table class="table table-bordered">
     <thead>
         <tr>
-            <th><?= $this->Paginator->sort('name') ?></th>
-            <th><?= $this->Paginator->sort('description') ?></th>
-            <th><?= $this->Paginator->sort('id') ?></th>
-            <th><?= $this->Paginator->sort('created') ?></th>
-            <th><?= $this->Paginator->sort('modified') ?></th>
-            <th class="actions"><?= __('Actions') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('name') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('description') ?></th>
+            <th class="actions text-center"><?= __('Actions') ?></th>
         </tr>
     </thead>
     <tbody>
     <?php foreach ($companyTypes as $companyType): ?>
         <tr>
-            <td><?= h($companyType->name) ?></td>
-            <td><?= h($companyType->description) ?></td>
-            <td><?= $this->Number->format($companyType->id) ?></td>
-            <td><?= h($companyType->created) ?></td>
-            <td><?= h($companyType->modified) ?></td>
-            <td class="actions">
-                <?= $this->Html->link(__(''), ['action' => 'view', $companyType->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+            <td class="text-center"><?= h($companyType->name) ?></td>
+            <td class="text-center"><?= h($companyType->description) ?></td>
+            <td class="actions text-center">
+                <?= $this->Html->link(__(''), ['action' => 'view', $companyType->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $companyType->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $companyType->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $companyType->id)]) ?>
             </td>
         </tr>
-
     <?php endforeach; ?>
     </tbody>
     </table>
-    <div class="paginator">
+    <div class="paginator text-center">
         <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->prev('< ' . __('Previous')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('Next') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>          
