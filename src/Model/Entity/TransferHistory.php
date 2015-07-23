@@ -23,6 +23,8 @@ class TransferHistory extends Entity
         'to_veh_reg_no' => true,
         'device_id' => true,
         'transfered_by_id' => true,
+        'created_by' => true,
+        'modified_by' => true,
         'from_user' => true,
         'from_client_info' => true,
         'to_user' => true,

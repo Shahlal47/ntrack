@@ -4,18 +4,11 @@ namespace App\Test\Fixture;
 use Cake\TestSuite\Fixture\TestFixture;
 
 /**
- * TransferHistoryFixture
+ * TransferHistoriesFixture
  *
  */
-class TransferHistoryFixture extends TestFixture
+class TransferHistoriesFixture extends TestFixture
 {
-
-    /**
-     * Table name
-     *
-     * @var string
-     */
-    public $table = 'transfer_history';
 
     /**
      * Fields
@@ -65,8 +58,8 @@ class TransferHistoryFixture extends TestFixture
             'transfered_by_id' => 1,
             'created_by' => 'Lorem ipsum dolor sit amet',
             'modified_by' => 'Lorem ipsum dolor sit amet',
-            'created' => '2015-07-23 11:39:57',
-            'modified' => '2015-07-23 11:39:57'
+            'created' => '2015-07-23 11:43:52',
+            'modified' => '2015-07-23 11:43:52'
         ],
     ];
 }

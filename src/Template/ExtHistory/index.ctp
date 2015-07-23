@@ -39,9 +39,9 @@
                         <?= $extHistory->has('client_device_subscription') ? $this->Html->link($extHistory->client_device_subscription->id, ['controller' => 'ClientDeviceSubscriptions', 'action' => 'view', $extHistory->client_device_subscription->id]) : '' ?>
                     </td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $extHistory->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
-                        <?= $this->Html->link(__(''), ['action' => 'edit', $extHistory->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
-                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $extHistory->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $extHistory->id)]) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $extHistory->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'edit', $extHistory->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $extHistory->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $extHistory->id)]) ?>
                     </td>
                 </tr>
             <?php endforeach; ?>

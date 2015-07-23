@@ -497,7 +497,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<li><?= $this->Html->link('Report Settings', ['controller' => 'ReportSettings', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Sensor Types', ['controller' => 'SensorTypes', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('System Info', ['controller' => 'SystemInfo', 'action' => 'index']); ?></li>
-						<li><?= $this->Html->link('Transfer History', ['controller' => 'TransferHistory', 'action' => 'index']); ?></li>
+						<li><?= $this->Html->link('Transfer History', ['controller' => 'TransferHistories', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('User Logs', ['controller' => 'UserLogs', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('Users', ['controller' => 'Users', 'action' => 'index']); ?></li>
 						<li><?= $this->Html->link('UserTypes', ['controller' => 'UserTypes', 'action' => 'index']); ?></li>

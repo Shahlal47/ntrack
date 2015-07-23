@@ -26,7 +26,6 @@
                         <?= $extHistory->has('client_device_subscription') ? $this->Html->link($extHistory->client_device_subscription->id, ['controller' => 'ClientDeviceSubscriptions', 'action' => 'view', $extHistory->client_device_subscription->id]) : '' ?>
                     </td>
                 </tr>
-
                 <tr><td class="text-right">Memo Number</td><td><?= h($extHistory->memo_number) ?></td></tr>
                 <tr><td class="text-right">Reference Number</td><td><?= h($extHistory->ref_number) ?></td></tr>
                 <tr><td class="text-right">From Date</td><td><?= h($extHistory->from_date) ?></td></tr>

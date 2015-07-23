@@ -45,7 +45,6 @@
             <th class="text-center"><?= $this->Paginator->sort('name') ?></th>
             <th class="text-center"><?= $this->Paginator->sort('email') ?></th>
             <th class="text-center"><?= $this->Paginator->sort('mobile') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('Client Info ID') ?></th>
             <th class="actions text-center"><?= __('Actions') ?></th>
         </tr>
     </thead>
@@ -55,9 +54,8 @@
             <td class="text-center"><?= h($clientContact->name) ?></td>
             <td class="text-center"><?= h($clientContact->email) ?></td>
             <td class="text-center"><?= h($clientContact->mobile) ?></td>
-            <td class="text-center"><?= h($clientContact->client_info_id) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $clientContact->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $clientContact->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $clientContact->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientContact->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientContact->id)]) ?>
             </td>
