@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPublicids/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPublicids/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientReports/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientReports/add.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPublicids/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPublicids/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientPublicids/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientPublicids/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientReports/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientReports/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientReports/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientReports/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientReports/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientReports/view.ctp" />
     </list>
     <ignored path="ntrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +38,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp">
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientReports/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8026534" vertical-offset="553" max-vertical-offset="1156">
-              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.5638474" vertical-offset="0" max-vertical-offset="646">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="782">
+              <caret line="3" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -55,11 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientContactDevices/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientDeviceGeofences/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientDeviceGeofences/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientDeviceGeofences/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientDevices/index.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/ClientDevicesController.php" />
         <option value="$PROJECT_DIR$/src/Model/Entity/ClientDevice.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientDevicesTable.php" />
@@ -106,6 +112,11 @@
         <option value="$PROJECT_DIR$/src/Template/ClientPublicids/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientPublicids/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientReports/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Users/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientReports/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientReports/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/ClientReports/view.ctp" />
       </list>
     </option>
   </component>
@@ -211,29 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClientPublicids" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ntrack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClientPersons" />
+              <option name="myItemId" value="Users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,48 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.307692" vertical-offset="400" max-vertical-offset="1105">
-          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Entity/ClientDevice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.18668832" vertical-offset="200" max-vertical-offset="816">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ClientDevicesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/edit.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7180763" vertical-offset="1063" max-vertical-offset="1666">
-          <caret line="186" column="14" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14096186" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientDevices/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="3281">
-          <caret line="18" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientDeviceGeofences/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.09950249" vertical-offset="400" max-vertical-offset="1003">
@@ -557,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/AccountTypes/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="357" max-vertical-offset="1071">
-          <caret line="39" column="117" selection-start-line="39" selection-start-column="117" selection-end-line="39" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientInfos/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.5936983" vertical-offset="0" max-vertical-offset="1666">
@@ -656,14 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94361526" vertical-offset="451" max-vertical-offset="1122">
-          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientPersons/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
@@ -672,26 +604,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.112769485" vertical-offset="357" max-vertical-offset="1190">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientReports/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5920398" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7048093" vertical-offset="459" max-vertical-offset="2295">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/AccountTypes/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22553897" vertical-offset="357" max-vertical-offset="1071">
+          <caret line="29" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5356551" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.32504147" vertical-offset="519" max-vertical-offset="1122">
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientReports/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2404643" vertical-offset="0" max-vertical-offset="918">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientReports/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1437621380495" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437621380495" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1437621380495" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08457711" vertical-offset="0" max-vertical-offset="782">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="782">
+          <caret line="3" column="73" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/ClientPublicids/edit.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/ClientReports/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8026534" vertical-offset="553" max-vertical-offset="1156">
-          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.5638474" vertical-offset="0" max-vertical-offset="646">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
       </provider>
