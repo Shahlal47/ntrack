@@ -22,10 +22,10 @@
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th class="text-center"><?= $this->Paginator->sort('id') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('publicid') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('client_info_id') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('client_device_id') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('ID') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Public ID') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Client Information') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Client Device') ?></th>
                 <th class="actions text-center"><?= __('Actions') ?></th>
             </tr>
             </thead>
