@@ -11,19 +11,12 @@ use Cake\Validation\Validator;
  * ClientVehicleAssignments Model
  *
  * @property \Cake\ORM\Association\BelongsTo $ClientInfos
- * @property \Cake\ORM\Association\BelongsTo $ClientVehicles
- * @property \Cake\ORM\Association\BelongsTo $ClientTrips
  * @property \Cake\ORM\Association\BelongsTo $ClientContacts
+ * @property \Cake\ORM\Association\BelongsTo $ClientVehicles
+ * @property \Cake\ORM\Association\BelongsTo $ClientTripPaths
  */
 class ClientVehicleAssignmentsTable extends Table
 {
-
-    /**
-     * Initialize method
-     *
-     * @param array $config The configuration for the Table.
-     * @return void
-     */
     public function initialize(array $config)
     {
         $this->table('client_vehicle_assignments');
@@ -33,23 +26,17 @@ class ClientVehicleAssignmentsTable extends Table
         $this->belongsTo('ClientInfos', [
             'foreignKey' => 'client_info_id'
         ]);
-        $this->belongsTo('ClientVehicles', [
-            'foreignKey' => 'client_vehicle_id'
-        ]);
-        $this->belongsTo('ClientTrips', [
-            'foreignKey' => 'client_trip_id'
-        ]);
         $this->belongsTo('ClientContacts', [
             'foreignKey' => 'client_contact_id'
         ]);
+        $this->belongsTo('ClientVehicles', [
+            'foreignKey' => 'client_vehicle_id'
+        ]);
+        $this->belongsTo('ClientTripPaths', [
+            'foreignKey' => 'client_trip_path_id'
+        ]);
     }
 
-    /**
-     * Default validation rules.
-     *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
-     */
     public function validationDefault(Validator $validator)
     {
         $validator
@@ -67,23 +54,24 @@ class ClientVehicleAssignmentsTable extends Table
         $validator
             ->add('finish_time', 'valid', ['rule' => 'time'])
             ->allowEmpty('finish_time');
+            
+        $validator
+            ->requirePresence('created_by', 'create')
+            ->allowEmpty('created_by');
+            
+        $validator
+            ->requirePresence('modified_by', 'create')
+            ->allowEmpty('modified_by');
 
         return $validator;
     }
 
-    /**
-     * Returns a rules checker object that will be used for validating
-     * application integrity.
-     *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
-     */
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['client_info_id'], 'ClientInfos'));
-        $rules->add($rules->existsIn(['client_vehicle_id'], 'ClientVehicles'));
-        $rules->add($rules->existsIn(['client_trip_id'], 'ClientTrips'));
         $rules->add($rules->existsIn(['client_contact_id'], 'ClientContacts'));
+        $rules->add($rules->existsIn(['client_vehicle_id'], 'ClientVehicles'));
+        $rules->add($rules->existsIn(['client_trip_path_id'], 'ClientTripPaths'));
         return $rules;
     }
 }

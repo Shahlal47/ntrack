@@ -19,7 +19,7 @@ class ClientVehicleAssignmentsController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['ClientInfos', 'ClientVehicles', 'ClientTripPaths', 'ClientContacts']
+            'contain' => ['ClientInfos', 'ClientContacts', 'ClientVehicles', 'ClientTripPaths']
         ];
         $this->set('clientVehicleAssignments', $this->paginate($this->ClientVehicleAssignments));
         $this->set('_serialize', ['clientVehicleAssignments']);
@@ -35,7 +35,7 @@ class ClientVehicleAssignmentsController extends AppController
     public function view($id = null)
     {
         $clientVehicleAssignment = $this->ClientVehicleAssignments->get($id, [
-            'contain' => ['ClientInfos', 'ClientVehicles', 'ClientTripPaths', 'ClientContacts']
+            'contain' => ['ClientInfos', 'ClientContacts', 'ClientVehicles', 'ClientTripPaths']
         ]);
         $this->set('clientVehicleAssignment', $clientVehicleAssignment);
         $this->set('_serialize', ['clientVehicleAssignment']);
@@ -59,10 +59,10 @@ class ClientVehicleAssignmentsController extends AppController
             }
         }
         $clientInfos = $this->ClientVehicleAssignments->ClientInfos->find('list', ['limit' => 200]);
+        $clientContacts = $this->ClientVehicleAssignments->ClientContacts->find('list', ['limit' => 200]);
         $clientVehicles = $this->ClientVehicleAssignments->ClientVehicles->find('list', ['limit' => 200]);
         $clientTripPaths = $this->ClientVehicleAssignments->ClientTripPaths->find('list', ['limit' => 200]);
-        $clientContacts = $this->ClientVehicleAssignments->ClientContacts->find('list', ['limit' => 200]);
-        $this->set(compact('clientVehicleAssignment', 'clientInfos', 'clientVehicles', 'clientTripPaths', 'clientContacts'));
+        $this->set(compact('clientVehicleAssignment', 'clientInfos', 'clientContacts', 'clientVehicles', 'clientTripPaths'));
         $this->set('_serialize', ['clientVehicleAssignment']);
     }
 
@@ -88,10 +88,10 @@ class ClientVehicleAssignmentsController extends AppController
             }
         }
         $clientInfos = $this->ClientVehicleAssignments->ClientInfos->find('list', ['limit' => 200]);
+        $clientContacts = $this->ClientVehicleAssignments->ClientContacts->find('list', ['limit' => 200]);
         $clientVehicles = $this->ClientVehicleAssignments->ClientVehicles->find('list', ['limit' => 200]);
         $clientTripPaths = $this->ClientVehicleAssignments->ClientTripPaths->find('list', ['limit' => 200]);
-        $clientContacts = $this->ClientVehicleAssignments->ClientContacts->find('list', ['limit' => 200]);
-        $this->set(compact('clientVehicleAssignment', 'clientInfos', 'clientVehicles', 'clientTripPaths', 'clientContacts'));
+        $this->set(compact('clientVehicleAssignment', 'clientInfos', 'clientContacts', 'clientVehicles', 'clientTripPaths'));
         $this->set('_serialize', ['clientVehicleAssignment']);
     }
 

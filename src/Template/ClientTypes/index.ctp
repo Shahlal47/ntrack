@@ -33,9 +33,9 @@
                 <td class="text-center"><?= h($clientType->name) ?></td>
                 <td class="text-center"><?= h($clientType->description) ?></td>
                 <td class="actions text-center">
-                    <?= $this->Html->link(__(''), ['action' => 'view', $clientType->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
-                    <?= $this->Html->link(__(''), ['action' => 'edit', $clientType->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
-                    <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientType->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientType->id)]) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'view', $clientType->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                    <?= $this->Html->link(__(''), ['action' => 'edit', $clientType->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                    <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientType->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientType->id)]) ?>
                 </td>
             </tr>
 
