@@ -150,16 +150,16 @@
     </table>
     <table name="client_infos" schema="" catalog="ntrack" type="TABLE">
       <column name="id" sqlType="CHAR" precision="36" scale="0" nullable="false" jdbcType="1"/>
-      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_id" sqlType="CHAR" precision="36" scale="0" nullable="false" jdbcType="1"/>
       <column name="client_type_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="client_contact_id" sqlType="CHAR" precision="36" scale="0" nullable="false" jdbcType="1"/>
       <column name="company_type_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
       <column name="address" sqlType="VARCHAR" precision="400" scale="0" nullable="true" jdbcType="12"/>
       <column name="created" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="modified" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="buyerno" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="website" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
-      <column name="user_id" sqlType="CHAR" precision="36" scale="0" nullable="false" jdbcType="1"/>
-      <column name="client_contact_id" sqlType="CHAR" precision="36" scale="0" nullable="false" jdbcType="1"/>
       <column name="logo" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="numOfTrackers" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
       <column name="numOfGeoFences" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>

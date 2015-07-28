@@ -15,6 +15,7 @@ use Cake\Validation\Validator;
  * @property \Cake\ORM\Association\BelongsTo $Users
  * @property \Cake\ORM\Association\BelongsTo $ClientContacts
  * @property \Cake\ORM\Association\HasMany $ClientAlertSettings
+// * @property \Cake\ORM\Association\HasMany $ClientContacts
  * @property \Cake\ORM\Association\HasMany $ClientDeviceSubscriptions
  * @property \Cake\ORM\Association\HasMany $ClientDevices
  * @property \Cake\ORM\Association\HasMany $ClientDriverAssignments
@@ -28,9 +29,17 @@ use Cake\Validation\Validator;
  * @property \Cake\ORM\Association\HasMany $ClientVehicleAssignments
  * @property \Cake\ORM\Association\HasMany $ClientVehicles
  * @property \Cake\ORM\Association\HasMany $Geofences
+// * @property \Cake\ORM\Association\HasMany $Users
  */
 class ClientInfosTable extends Table
 {
+
+    /**
+     * Initialize method
+     *
+     * @param array $config The configuration for the Table.
+     * @return void
+     */
     public function initialize(array $config)
     {
         $this->table('client_infos');
@@ -100,8 +109,17 @@ class ClientInfosTable extends Table
         $this->hasMany('Users', [
             'foreignKey' => 'client_info_id'
         ]);
+        $this->hasOne('Users', [
+            'foreignKey' => 'client_info_id'
+        ]);
     }
 
+    /**
+     * Default validation rules.
+     *
+     * @param \Cake\Validation\Validator $validator Validator instance.
+     * @return \Cake\Validation\Validator
+     */
     public function validationDefault(Validator $validator)
     {
         $validator
@@ -138,6 +156,13 @@ class ClientInfosTable extends Table
         return $validator;
     }
 
+    /**
+     * Returns a rules checker object that will be used for validating
+     * application integrity.
+     *
+     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
+     * @return \Cake\ORM\RulesChecker
+     */
     public function buildRules(RulesChecker $rules)
     {
         $rules->add($rules->existsIn(['client_type_id'], 'ClientTypes'));

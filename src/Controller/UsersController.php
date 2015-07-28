@@ -3,19 +3,8 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-/**
- * Users Controller
- *
- * @property \App\Model\Table\UsersTable $Users
- */
 class UsersController extends AppController
 {
-
-    /**
-     * Index method
-     *
-     * @return void
-     */
     public function index()
     {
         $this->paginate = [
@@ -25,13 +14,6 @@ class UsersController extends AppController
         $this->set('_serialize', ['users']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id User id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $user = $this->Users->get($id, [
@@ -41,11 +23,6 @@ class UsersController extends AppController
         $this->set('_serialize', ['user']);
     }
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $user = $this->Users->newEntity();
@@ -63,13 +40,6 @@ class UsersController extends AppController
         $this->set('_serialize', ['user']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id User id.
-     * @return void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $user = $this->Users->get($id, [
@@ -89,13 +59,6 @@ class UsersController extends AppController
         $this->set('_serialize', ['user']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id User id.
-     * @return void Redirects to index.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);

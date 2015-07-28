@@ -32,12 +32,12 @@ class ClientContactsTable extends Table
         $this->displayField('name');
         $this->primaryKey('id');
         $this->addBehavior('Timestamp');
-//        $this->belongsTo('Users', [
-//            'foreignKey' => 'user_id'
-//        ]);
-//        $this->belongsTo('ClientInfos', [
-//            'foreignKey' => 'client_info_id'
-//        ]);
+        $this->belongsTo('Users', [
+            'foreignKey' => 'user_id'
+        ]);
+        $this->belongsTo('ClientInfos', [
+            'foreignKey' => 'client_info_id'
+        ]);
         $this->hasMany('ClientAlertSettings', [
             'foreignKey' => 'client_contact_id'
         ]);
@@ -69,6 +69,9 @@ class ClientContactsTable extends Table
             'foreignKey' => 'client_contact_id'
         ]);
         $this->hasMany('Users', [
+            'foreignKey' => 'client_contact_id'
+        ]);
+        $this->hasOne('Users', [
             'foreignKey' => 'client_contact_id'
         ]);
     }

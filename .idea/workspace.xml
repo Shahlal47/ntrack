@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3e11609-c233-4588-a2e0-03b65b822881" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Controller\TransferHistoryController.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Model\Table\TransferHistoryTable.php" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\add.ctp" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\edit.ctp" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\index.ctp" afterPath="" />
       <change type="DELETED" beforePath="C:\xampp\htdocs\ntrack\src\Template\TransferHistory\view.ctp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ClientInfosController.php" afterPath="$PROJECT_DIR$/src/Controller/ClientInfosController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ClientInfosTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ClientInfosTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsersController.php" afterPath="$PROJECT_DIR$/src/Controller/UsersController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientInfos/add.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientInfos/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientInfos/index.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientInfos/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" afterPath="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ntrack.iws" />
@@ -117,21 +118,40 @@
       <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/ClientInfos/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923" vertical-offset="1853" max-vertical-offset="6375">
-              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="935">
+              <caret line="192" column="37" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#0;n#form#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientInfosController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientInfosController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ClientInfosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6069652" vertical-offset="0" max-vertical-offset="1275">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.3076923" vertical-offset="153" max-vertical-offset="1479">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#124#378#0#PHP" expanded="false" />
-                <element signature="e#384#959#0#PHP" expanded="false" />
+                <element signature="e#264#518#0#PHP" expanded="false" />
+                <element signature="e#524#1099#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersTable.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47564936" vertical-offset="81" max-vertical-offset="1649">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#34#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/ClientVehicles/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientVehicles/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Comments/index.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/CommentsController.php" />
@@ -191,11 +210,12 @@
         <option value="$PROJECT_DIR$/src/Template/ClientInfos/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Tests/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/ClientInfos/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/ClientInfos/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
-        <option value="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/ClientInfosTable.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/ClientInfos/add.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/ClientInfosController.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
       </list>
     </option>
   </component>
@@ -322,6 +342,28 @@
               <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Table" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -341,13 +383,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ntrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../students" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testcake" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="preferences.editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -404,15 +474,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1311" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.619403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.619403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30215827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28217426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -445,24 +515,12 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/CompanyTypes/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="306" max-vertical-offset="969">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Comments/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4792703" vertical-offset="0" max-vertical-offset="612">
-          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Comments/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="1394">
@@ -754,19 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
           <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,54 +826,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64842457" vertical-offset="0" max-vertical-offset="603">
           <caret line="74" column="83" selection-start-line="74" selection-start-column="83" selection-end-line="74" selection-end-column="83" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientContactsTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63474023" vertical-offset="204" max-vertical-offset="2040">
-          <caret line="39" column="13" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5584416" vertical-offset="795" max-vertical-offset="1411">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientInfosTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58603895" vertical-offset="1594" max-vertical-offset="2210">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.11038961" vertical-offset="816" max-vertical-offset="1819">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
           <folding>
-            <element signature="e#166#1286#0#PHP" expanded="false" />
+            <element signature="e#169#986#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/UserTypesTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52435064" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/ClientInfos/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="1853" max-vertical-offset="6375">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="935">
+          <caret line="192" column="37" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#0;n#form#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ClientInfosTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2353897" vertical-offset="0" max-vertical-offset="2516">
+          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+          <folding>
+            <element signature="e#166#1399#0#PHP" expanded="false" />
+            <element signature="e#1444#1568#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8896104" vertical-offset="701" max-vertical-offset="1343">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ClientInfosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6069652" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.3076923" vertical-offset="153" max-vertical-offset="1479">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#124#378#0#PHP" expanded="false" />
-            <element signature="e#384#959#0#PHP" expanded="false" />
+            <element signature="e#264#518#0#PHP" expanded="false" />
+            <element signature="e#524#1099#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47564936" vertical-offset="81" max-vertical-offset="1649">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

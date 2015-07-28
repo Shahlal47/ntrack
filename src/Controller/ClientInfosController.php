@@ -2,6 +2,11 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use App\Model\Table\ClientInfosTable;
+use App\Model\Table\ClientContactsTable;
+use App\Model\Table\UsersTable;
+
+use Cake\ORM\TableRegistry;
 
 class ClientInfosController extends AppController
 {
@@ -25,23 +30,30 @@ class ClientInfosController extends AppController
 
     public function add()
     {
-        $clientInfo = $this->ClientInfos->newEntity();
+        $clientInfosTable = TableRegistry::get('ClientInfos');
+        $clientInfo = $clientInfosTable->newEntity();
+
         if ($this->request->is('post')) {
+
 //            $data = $this->request->data;
 //            pr($data); die();
 
+            $this->loadModel('Users');
+            $users = $this->Users->newEntity();
+            $user = $this->Users->patchEntity($users, $this->request->data['Users']);
+            $this->Users->save($user);
 
+            $this->loadModel('ClientInfos');
+            $clientInfos = $this->ClientInfos->newEntity();
+            $clientInfos = $this->ClientInfos->patchEntity($clientInfos, $this->request->data['ClientInfos']);
+            $this->ClientInfos->save($clientInfos);
 
+            $this->loadModel('ClientContacts');
+            $clientContacts = $this->ClientContacts->newEntity();
+            $clientContacts = $this->ClientContacts->patchEntity($clientContacts, $this->request->data['ClientContacts']);
+            $this->ClientContacts->save($clientContacts);
 
-
-
-            $clientInfo = $this->ClientInfos->patchEntity($clientInfo, $this->request->data);
-            if ($this->ClientInfos->save($clientInfo)) {
-                $this->Flash->success(__('The client info has been saved.'));
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The client info could not be saved. Please, try again.'));
-            }
+            return $this->redirect(['action' => 'index']);
         }
         $clientTypes = $this->ClientInfos->ClientTypes->find('list', ['limit' => 200]);
         $companyTypes = $this->ClientInfos->CompanyTypes->find('list', ['limit' => 200]);

@@ -7,6 +7,16 @@ use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
+/**
+ * Users Model
+ *
+ * @property \Cake\ORM\Association\BelongsTo $UserTypes
+ * @property \Cake\ORM\Association\BelongsTo $ClientContacts
+ * @property \Cake\ORM\Association\BelongsTo $ClientInfos
+// * @property \Cake\ORM\Association\HasMany $ClientContacts
+// * @property \Cake\ORM\Association\HasMany $ClientInfos
+ * @property \Cake\ORM\Association\HasMany $UserLogs
+ */
 class UsersTable extends Table
 {
     public function initialize(array $config)
@@ -41,27 +51,27 @@ class UsersTable extends Table
         $validator
             ->add('id', 'valid', ['rule' => 'uuid'])
             ->allowEmpty('id', 'create');
-            
+
         $validator
             ->requirePresence('username', 'create')
             ->notEmpty('username')
             ->add('username', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
-            
+
         $validator
             ->requirePresence('password', 'create')
             ->notEmpty('password');
-            
+
         $validator
             ->allowEmpty('hash_change_password');
-            
+
         $validator
             ->add('active', 'valid', ['rule' => 'boolean'])
             ->allowEmpty('active');
-            
+
         $validator
             ->add('email', 'valid', ['rule' => 'email'])
             ->allowEmpty('email');
-            
+
         $validator
             ->requirePresence('block_type', 'create')
             ->notEmpty('block_type');
