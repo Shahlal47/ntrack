@@ -30,8 +30,8 @@ class ClientInfosController extends AppController
 
     public function add()
     {
-        $clientInfosTable = TableRegistry::get('ClientInfos');
-        $clientInfo = $clientInfosTable->newEntity();
+//        $clientInfosTable = TableRegistry::get('ClientInfos');
+        $clientInfo = $this->ClientInfos->newEntity();
 
         if ($this->request->is('post')) {
 
@@ -40,8 +40,8 @@ class ClientInfosController extends AppController
 
             $this->loadModel('Users');
             $users = $this->Users->newEntity();
-            $user = $this->Users->patchEntity($users, $this->request->data['Users']);
-            $this->Users->save($user);
+            $users = $this->Users->patchEntity($users, $this->request->data['Users']);
+            $this->Users->save($users);
 
             $this->loadModel('ClientInfos');
             $clientInfos = $this->ClientInfos->newEntity();

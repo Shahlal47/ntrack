@@ -83,8 +83,8 @@ class ClientContactsTable extends Table
             ->allowEmpty('id', 'create');
             
         $validator
-            ->requirePresence('name', 'create')
-            ->notEmpty('name');
+//            ->requirePresence('name', 'create')
+            ->allowEmpty('name');
             
         $validator
             ->allowEmpty('nationalid');

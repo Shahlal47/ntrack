@@ -73,8 +73,8 @@ class UsersTable extends Table
             ->allowEmpty('email');
 
         $validator
-            ->requirePresence('block_type', 'create')
-            ->notEmpty('block_type');
+//            ->requirePresence('block_type', 'create')
+            ->allowEmpty('block_type');
 
         return $validator;
     }

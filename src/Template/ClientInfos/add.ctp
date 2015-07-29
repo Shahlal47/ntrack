@@ -130,49 +130,49 @@
                         <label class="col-sm-4 control-label">National ID</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.nationalid', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.nationalid', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Email</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.email', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.email', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Mobile Number</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.mobile', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.mobile', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Phone Number</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.phone', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.phone', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Fax</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.fax', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.fax', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Mobile Home</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.mobile_home', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.mobile_home', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-4 control-label">Mobile Office</label>
 
                         <div class="col-sm-3">
-                            <?php echo $this->Form->input('ClientContact.mobile_office', array('label' => false, 'class' => 'form-control')); ?>
+                            <?php echo $this->Form->input('ClientContacts.mobile_office', array('label' => false, 'class' => 'form-control')); ?>
                         </div>
                     </div>
                 </fieldset>
