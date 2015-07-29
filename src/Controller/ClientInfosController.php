@@ -30,13 +30,9 @@ class ClientInfosController extends AppController
 
     public function add()
     {
-//        $clientInfosTable = TableRegistry::get('ClientInfos');
         $clientInfo = $this->ClientInfos->newEntity();
 
         if ($this->request->is('post')) {
-
-//            $data = $this->request->data;
-//            pr($data); die();
 
             $this->loadModel('Users');
             $users = $this->Users->newEntity();
