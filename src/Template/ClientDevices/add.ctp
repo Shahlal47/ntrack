@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group form-horizontal">
-                    <label class="control-label col-md-5">Client Name</label>
+                    <label class="control-label col-md-5">Client Device</label>
                     <div class="col-md-6">
                         <?php echo $this->Form->input('device_info_id', array('options' => $deviceInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
                     </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group form-horizontal">
-                    <label class="control-label col-md-5 pull-left">Client Device</label>
+                    <label class="control-label col-md-5 pull-left">Client Name</label>
                     <div class="col-md-6">
                         <?php echo $this->Form->input('client_info_id', array('options' => $clientInfos, 'empty' => true, 'label' => false, 'class'=>'form-control')); ?>
                     </div>
@@ -167,12 +167,12 @@
                 <?php echo $this->Form->input('credit_file_num', array('label' => false, 'class'=>'form-control')); ?>
             </div>
         </div>
-        <div class="form-group">
-            <label class="col-sm-4 control-label">Tracker ID</label>
-            <div class="col-sm-3">
-                <?php echo $this->Form->input('tracker_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
-            </div>
-        </div><hr>
+<!--        <div class="form-group">-->
+<!--            <label class="col-sm-4 control-label">Tracker ID</label>-->
+<!--            <div class="col-sm-3">-->
+<!--                --><?php //echo $this->Form->input('tracker_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
+<!--            </div>-->
+<!--        </div><hr>-->
         <div class="form-actions">
             <div class="row">
                 <div class="col-md-offset-4 col-md-9">

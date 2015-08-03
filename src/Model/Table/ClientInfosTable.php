@@ -106,12 +106,12 @@ class ClientInfosTable extends Table
         $this->hasMany('Geofences', [
             'foreignKey' => 'client_info_id'
         ]);
-        $this->hasMany('Users', [
-            'foreignKey' => 'client_info_id'
-        ]);
-        $this->hasOne('Users', [
-            'foreignKey' => 'client_info_id'
-        ]);
+//        $this->hasMany('Users', [
+//            'foreignKey' => 'client_info_id'
+//        ]);
+//        $this->hasOne('Users', [
+//            'foreignKey' => 'client_info_id'
+//        ]);
     }
 
     /**

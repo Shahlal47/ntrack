@@ -7,6 +7,9 @@ use App\Model\Table\ClientContactsTable;
 use App\Model\Table\UsersTable;
 
 use Cake\ORM\TableRegistry;
+use Cake\Core\App;
+use Cake\Utility\Text;
+
 
 class ClientInfosController extends AppController
 {
@@ -34,6 +37,10 @@ class ClientInfosController extends AppController
 
         if ($this->request->is('post')) {
 
+            $userid = Text::uuid();
+            $contactid = Text::uuid();
+            $clientid = Text::uuid();
+
             $this->loadModel('Users');
             $users = $this->Users->newEntity();
             $users = $this->Users->patchEntity($users, $this->request->data['Users']);
@@ -49,7 +56,7 @@ class ClientInfosController extends AppController
             $clientContacts = $this->ClientContacts->patchEntity($clientContacts, $this->request->data['ClientContacts']);
             $this->ClientContacts->save($clientContacts);
 
-            return $this->redirect(['action' => 'index']);
+            return $this->redirect(['controller' => 'ClientDevices', 'action' => 'add']);
         }
         $clientTypes = $this->ClientInfos->ClientTypes->find('list', ['limit' => 200]);
         $companyTypes = $this->ClientInfos->CompanyTypes->find('list', ['limit' => 200]);
