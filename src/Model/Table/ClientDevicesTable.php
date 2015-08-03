@@ -27,6 +27,11 @@ use Cake\Validation\Validator;
  */
 class ClientDevicesTable extends Table
 {
+//    public static function defaultConnectionName()
+//    {
+//        return 'db2';
+//    }
+
     public function initialize(array $config)
     {
         $this->table('client_devices');

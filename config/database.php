@@ -21,7 +21,7 @@ class DATABASE_CONFIG {
 			'host' => 'localhost',
 			'login' => 'root',
 			'password' => '',
-			'database' => 'vts_3',
+			'database' => 'ntrack',
 			'prefix' => '',
 			'encoding' => 'utf8'
 	);
