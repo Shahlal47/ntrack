@@ -23,9 +23,9 @@
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th class="text-center"><?= $this->Paginator->sort('id') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('name') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('description') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('ID') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Name') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Description') ?></th>
                 <th class="actions text-center"><?= __('Actions') ?></th>
             </tr>
             </thead>

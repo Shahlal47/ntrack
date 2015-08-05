@@ -1,47 +1,53 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('New Test'), ['action' => 'add']) ?></li>
-    </ul>
-</div>
-<div class="tests index large-10 medium-9 columns">
-    <table cellpadding="0" cellspacing="0">
-    <thead>
-        <tr>
-            <th><?= $this->Paginator->sort('id') ?></th>
-            <th><?= $this->Paginator->sort('name') ?></th>
-            <th><?= $this->Paginator->sort('created_by') ?></th>
-            <th><?= $this->Paginator->sort('modified_by') ?></th>
-            <th><?= $this->Paginator->sort('created') ?></th>
-            <th><?= $this->Paginator->sort('modified') ?></th>
-            <th class="actions"><?= __('Actions') ?></th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php foreach ($tests as $test): ?>
-        <tr>
-            <td><?= $this->Number->format($test->id) ?></td>
-            <td><?= $this->Number->format($test->name) ?></td>
-            <td><?= h($test->created_by) ?></td>
-            <td><?= h($test->modified_by) ?></td>
-            <td><?= h($test->created) ?></td>
-            <td><?= h($test->modified) ?></td>
-            <td class="actions">
-                <?= $this->Html->link(__('View'), ['action' => 'view', $test->id]) ?>
-                <?= $this->Html->link(__('Edit'), ['action' => 'edit', $test->id]) ?>
-                <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $test->id], ['confirm' => __('Are you sure you want to delete # {0}?', $test->id)]) ?>
-            </td>
-        </tr>
 
-    <?php endforeach; ?>
-    </tbody>
-    </table>
-    <div class="paginator">
-        <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
-            <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-        </ul>
-        <p><?= $this->Paginator->counter() ?></p>
+<div class="portlet box green">
+    <div class="portlet-title">
+        <div class="caption">
+            <span class="caption-subject bold">Testing List Table</span>
+        </div>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('Create New Test'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('Optional Form'), ['action' => 'option_form']) ?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="portlet-body">
+        <table class="table table-bordered"><br>
+            <thead>
+                <tr>
+                    <th class="text-center"><?= $this->Paginator->sort('Name') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Mobile') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Email') ?></th>
+                    <th class="text-center"><?= $this->Paginator->sort('Address') ?></th>
+                    <th class="actions text-center"><?= __('Actions') ?></th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($tests as $test): ?>
+                <tr>
+                    <td class="text-center"><?= h($test->name) ?></td>
+                    <td class="text-center"><?= h($test->mobile) ?></td>
+                    <td class="text-center"><?= h($test->email) ?></td>
+                    <td class="text-center"><?= h($test->address) ?></td>
+                    <td class="actions text-center">
+                        <?= $this->Html->link(__(''), ['action' => 'view', $test->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'edit', $test->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $test->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $test->id)]) ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+        <div class="paginator text-center">
+            <ul class="pagination">
+                <?= $this->Paginator->prev('' . __('Previous')) ?>
+                <?= $this->Paginator->numbers() ?>
+                <?= $this->Paginator->next(__('Next') . '') ?>
+            </ul>
+            <p><?= $this->Paginator->counter() ?></p>
+        </div>
     </div>
 </div>

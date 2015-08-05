@@ -34,8 +34,8 @@
                     <li><?= $this->Html->link(__('New Client Notification'), ['controller' => 'ClientNotifications', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Persons'), ['controller' => 'ClientPersons', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Person'), ['controller' => 'ClientPersons', 'action' => 'add']) ?></li>
-                    <li><?= $this->Html->link(__('List Client Publicids'), ['controller' => 'ClientPublicids', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Client Publicid'), ['controller' => 'ClientPublicids', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Public ID'), ['controller' => 'ClientPublicids', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Public ID'), ['controller' => 'ClientPublicids', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Reports'), ['controller' => 'ClientReports', 'action' => 'index']) ?></li>
                 </ul>
             </div>

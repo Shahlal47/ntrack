@@ -11,7 +11,7 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                    <li><?= $this->Html->link(__('New Poi Type'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('New POI Type'), ['action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>

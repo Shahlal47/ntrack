@@ -9,9 +9,9 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                    <li><?= $this->Html->link(__('New Client Publicid'), ['action' => 'add']) ?></li>
-                    <li><?= $this->Html->link(__('List Client Infos'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Client Info'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Public ID'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Information'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Information'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Devices'), ['controller' => 'ClientDevices', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Device'), ['controller' => 'ClientDevices', 'action' => 'add']) ?></li>
                 </ul>

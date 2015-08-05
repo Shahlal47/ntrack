@@ -3,32 +3,14 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 
-/**
- * Tests Controller
- *
- * @property \App\Model\Table\TestsTable $Tests
- */
 class TestsController extends AppController
 {
-
-    /**
-     * Index method
-     *
-     * @return void
-     */
     public function index()
     {
         $this->set('tests', $this->paginate($this->Tests));
         $this->set('_serialize', ['tests']);
     }
 
-    /**
-     * View method
-     *
-     * @param string|null $id Test id.
-     * @return void
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function view($id = null)
     {
         $test = $this->Tests->get($id, [
@@ -38,11 +20,6 @@ class TestsController extends AppController
         $this->set('_serialize', ['test']);
     }
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */
     public function add()
     {
         $test = $this->Tests->newEntity();
@@ -59,13 +36,6 @@ class TestsController extends AppController
         $this->set('_serialize', ['test']);
     }
 
-    /**
-     * Edit method
-     *
-     * @param string|null $id Test id.
-     * @return void Redirects on successful edit, renders view otherwise.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function edit($id = null)
     {
         $test = $this->Tests->get($id, [
@@ -84,13 +54,6 @@ class TestsController extends AppController
         $this->set('_serialize', ['test']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Test id.
-     * @return void Redirects to index.
-     * @throws \Cake\Network\Exception\NotFoundException When record not found.
-     */
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
@@ -101,5 +64,49 @@ class TestsController extends AppController
             $this->Flash->error(__('The test could not be deleted. Please, try again.'));
         }
         return $this->redirect(['action' => 'index']);
+    }
+
+    public function option_form(){
+
+    }
+
+    public function page_one(){
+
+    }
+
+    public function page_two(){
+
+    }
+
+    public function page_three(){
+
+    }
+
+    public function page_four(){
+
+    }
+
+    public function page_five(){
+
+    }
+
+    public function page_six(){
+
+    }
+
+    public function page_seven(){
+
+    }
+
+    public function page_eight(){
+
+    }
+
+    public function page_nine(){
+
+    }
+
+    public function page_ten(){
+
     }
 }

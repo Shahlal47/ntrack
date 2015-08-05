@@ -11,11 +11,11 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                 <li><?= $this->Html->link(__('New User Log'), ['action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List User Types'), ['controller' => 'UserTypes', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New User Type'), ['controller' => 'UserTypes', 'action' => 'add']) ?></li>   
+                    <li><?= $this->Html->link(__('New User Log'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List User Types'), ['controller' => 'UserTypes', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New User Type'), ['controller' => 'UserTypes', 'action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>
@@ -28,7 +28,6 @@
             <th><?= $this->Paginator->sort('id') ?></th>
             <th><?= $this->Paginator->sort('user_id') ?></th>
             <th><?= $this->Paginator->sort('user_type_id') ?></th>
-            <th><?= $this->Paginator->sort('created') ?></th>
             <th class="actions"><?= __('Actions') ?></th>
         </tr>
     </thead>

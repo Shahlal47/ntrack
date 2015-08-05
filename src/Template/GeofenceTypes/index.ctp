@@ -11,9 +11,9 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                    <li><?= $this->Html->link(__('New Geofence Type'), ['action' => 'add']) ?></li>
-                    <li><?= $this->Html->link(__('List Geofences'), ['controller' => 'Geofences', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Geofence'), ['controller' => 'Geofences', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('New Geo Fence Type'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Geo Fences'), ['controller' => 'Geofences', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Geo Fence'), ['controller' => 'Geofences', 'action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>

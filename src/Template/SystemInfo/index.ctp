@@ -10,7 +10,7 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                    <li><?= $this->Html->link(__('New System Info'), ['action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('New System Information'), ['action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>
@@ -33,9 +33,9 @@
                     <td class="text-center"><?= $this->Number->format($systemInfo->device_seq_start) ?></td>
                     <td class="text-center"><?= $this->Number->format($systemInfo->device_seq_last) ?></td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $systemInfo->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
-                        <?= $this->Html->link(__(''), ['action' => 'edit', $systemInfo->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
-                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $systemInfo->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $systemInfo->id)]) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $systemInfo->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'edit', $systemInfo->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
+                        <?= $this->Form->postLink(__(''), ['action' => 'delete', $systemInfo->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $systemInfo->id)]) ?>
                     </td>
                 </tr>
 

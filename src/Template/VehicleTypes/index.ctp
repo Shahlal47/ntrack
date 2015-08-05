@@ -26,12 +26,12 @@
             <thead>
             <tr>
 
-            <th class="text-center"><?= $this->Paginator->sort('name') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('description') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('def_speed_limit') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('def_min_mileage') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('def_man_mileage') ?></th>
-            <th class="text-center"><?= $this->Paginator->sort('def_fuel_consumption') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Name') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Description') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Speed Limit') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Minimum Mileage') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Maximum Mileage') ?></th>
+            <th class="text-center"><?= $this->Paginator->sort('Fuel Consumption') ?></th>
             <th class="actions text-center"><?= __('Actions') ?></th>
         </tr>
     </thead>

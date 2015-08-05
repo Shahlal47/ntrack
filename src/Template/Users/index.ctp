@@ -15,8 +15,8 @@
                     <li><?= $this->Html->link(__('New User Type'), ['controller' => 'UserTypes', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Contacts'), ['controller' => 'ClientContacts', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Contact'), ['controller' => 'ClientContacts', 'action' => 'add']) ?></li>
-                    <li><?= $this->Html->link(__('List Client Infos'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Client Info'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Client Information'), ['controller' => 'ClientInfos', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Client Information'), ['controller' => 'ClientInfos', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List User Logs'), ['controller' => 'UserLogs', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New User Log'), ['controller' => 'UserLogs', 'action' => 'add']) ?></li>
                 </ul>
@@ -27,8 +27,8 @@
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th class="text-center"><?= $this->Paginator->sort('username') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('user_type_id') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Username') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('User Type') ?></th>
                 <th class="actions text-center"><?= __('Actions') ?></th>
             </tr>
             </thead>

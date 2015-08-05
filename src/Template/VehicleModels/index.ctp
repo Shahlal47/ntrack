@@ -23,27 +23,18 @@
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th class="text-center"><?= $this->Paginator->sort('id') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('vehicle_type_id') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('name') ?></th>
-
-                <th class="text-center"><?= $this->Paginator->sort('desc') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('created') ?></th>
-                <th class="text-center"><?= $this->Paginator->sort('modified') ?></th>
-
+                <th class="text-center"><?= $this->Paginator->sort('Vehicle Type') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Name') ?></th>
+                <th class="text-center"><?= $this->Paginator->sort('Description') ?></th>
                 <th class="actions text-center"><?= __('Actions') ?></th>
-
             </tr>
             </thead>
             <tbody>
             <?php  foreach ($vehicleModels as $vehicleModel): ?>
                 <tr>
-                    <td class="text-center"><?= $this->Number->format($vehicleModel->id) ?></td>
                     <td class="text-center"><?= $vehicleModel->has('vehicle_type') ? $this->Html->link($vehicleModel->vehicle_type->name, ['controller' => 'VehicleTypes', 'action' => 'view', $vehicleModel->vehicle_type->id]) : '' ?></td>
                     <td class="text-center"><?= h($vehicleModel->name) ?></td>
                     <td class="text-center"><?= h($vehicleModel->desc) ?></td>
-                    <td class="text-center"><?= h($vehicleModel->created) ?></td>
-                    <td class="text-center"><?= h($vehicleModel->modified) ?></td>
                     <td class="actions text-center">
                         <?= $this->Html->link(__(''), ['action' => 'view', $vehicleModel->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                         <?= $this->Html->link(__(''), ['action' => 'edit', $vehicleModel->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>

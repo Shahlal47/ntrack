@@ -1,32 +1,33 @@
-<div class="actions columns large-2 medium-3">
-    <h3><?= __('Actions') ?></h3>
-    <ul class="side-nav">
-        <li><?= $this->Html->link(__('Edit Test'), ['action' => 'edit', $test->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Test'), ['action' => 'delete', $test->id], ['confirm' => __('Are you sure you want to delete # {0}?', $test->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Tests'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Test'), ['action' => 'add']) ?> </li>
-    </ul>
-</div>
-<div class="tests view large-10 medium-9 columns">
-    <h2><?= h($test->name) ?></h2>
-    <div class="row">
-        <div class="large-5 columns strings">
-            <h6 class="subheader"><?= __('Created By') ?></h6>
-            <p><?= h($test->created_by) ?></p>
-            <h6 class="subheader"><?= __('Modified By') ?></h6>
-            <p><?= h($test->modified_by) ?></p>
+
+<div class="portlet light">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <span class="caption-subject bold uppercase">Testing Details</span>
         </div>
-        <div class="large-2 columns numbers end">
-            <h6 class="subheader"><?= __('Id') ?></h6>
-            <p><?= $this->Number->format($test->id) ?></p>
-            <h6 class="subheader"><?= __('Name') ?></h6>
-            <p><?= $this->Number->format($test->name) ?></p>
+        <div class="actions">
+            <div class="btn-group">
+                <a aria-expanded="false" class="btn btn-circle btn-default btn-sm" href="#" data-toggle="dropdown">Action <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu pull-right" role="menu">
+                    <li><?= $this->Html->link(__('Edit Test'), ['action' => 'edit', $test->id]) ?> </li>
+                    <li><?= $this->Form->postLink(__('Delete Test'), ['action' => 'delete', $test->id], ['confirm' => __('Are you sure you want to delete # {0}?', $test->id)]) ?> </li>
+                    <li><?= $this->Html->link(__('Testing List'), ['action' => 'index']) ?> </li>
+                    <li><?= $this->Html->link(__('Create New Test'), ['action' => 'add']) ?> </li>
+                </ul>
+            </div>
         </div>
-        <div class="large-2 columns dates end">
-            <h6 class="subheader"><?= __('Created') ?></h6>
-            <p><?= h($test->created) ?></p>
-            <h6 class="subheader"><?= __('Modified') ?></h6>
-            <p><?= h($test->modified) ?></p>
+    </div>
+    <div class="portlet-body">
+        <div class="panel-body">
+            <table class="table table-bordered" align="center">
+                <tr><td class="text-right">Name</td><td><?= h($test->name) ?></td></tr>
+                <tr><td class="text-right">Mobile</td><td><?= h($test->mobile)  ?></td></tr>
+                <tr><td class="text-right">Email</td><td><?= h($test->email) ?></td></tr>
+                <tr><td class="text-right">Address</td><td><?= h($test->address) ?></td></tr>
+                <tr><td class="text-right">Created By</td><td><?= h($test->created_by) ?></td></tr>
+                <tr><td class="text-right">Modified By</td><td><?= h($test->modified_by) ?></td></tr>
+                <tr><td class="text-right">Created Time</td><td><?=  h($test->created) ?></td></tr>
+                <tr><td class="text-right">Modified Time</td><td><?= h($test->modified) ?></td></tr>
+            </table>
         </div>
     </div>
 </div>

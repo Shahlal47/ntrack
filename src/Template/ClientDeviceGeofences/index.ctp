@@ -11,13 +11,13 @@
                     Action <i class="fa fa-angle-down"></i>
                 </a>
                 <ul class="dropdown-menu pull-right" role="menu">
-                     <li><?= $this->Html->link(__('New Client Device Geofence'), ['action' => 'add']) ?></li>
+                     <li><?= $this->Html->link(__('New Client Device Geo Fence'), ['action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Contacts'), ['controller' => 'ClientContacts', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Contact'), ['controller' => 'ClientContacts', 'action' => 'add']) ?></li>
                     <li><?= $this->Html->link(__('List Client Devices'), ['controller' => 'ClientDevices', 'action' => 'index']) ?></li>
                     <li><?= $this->Html->link(__('New Client Device'), ['controller' => 'ClientDevices', 'action' => 'add']) ?></li>
-                    <li><?= $this->Html->link(__('List Geofences'), ['controller' => 'Geofences', 'action' => 'index']) ?></li>
-                    <li><?= $this->Html->link(__('New Geofence'), ['controller' => 'Geofences', 'action' => 'add']) ?></li>
+                    <li><?= $this->Html->link(__('List Geo Fences'), ['controller' => 'Geofences', 'action' => 'index']) ?></li>
+                    <li><?= $this->Html->link(__('New Geo Fence'), ['controller' => 'Geofences', 'action' => 'add']) ?></li>
                 </ul>
             </div>
         </div>
