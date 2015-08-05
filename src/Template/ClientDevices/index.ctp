@@ -58,7 +58,7 @@
                     <td class="text-center"><?= h($clientDevice->active) ?></td>
                     <td class="text-center"><?= h($clientDevice->imei) ?></td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDevice->id], ['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDevice->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                         <?= $this->Html->link(__(''), ['action' => 'edit', $clientDevice->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                         <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientDevice->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientDevice->id)]) ?>
                     </td>

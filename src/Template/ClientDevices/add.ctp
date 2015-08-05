@@ -168,12 +168,12 @@
                 <?php echo $this->Form->input('credit_file_num', array('label' => false, 'class'=>'form-control')); ?>
             </div>
         </div>
-<!--        <div class="form-group">-->
-<!--            <label class="col-sm-4 control-label">Tracker ID</label>-->
-<!--            <div class="col-sm-3">-->
-<!--                --><?php //echo $this->Form->input('tracker_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
-<!--            </div>-->
-<!--        </div><hr>-->
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Tracker ID</label>
+            <div class="col-sm-3">
+                <?php echo $this->Form->input('tracker_id', array('type' => 'text', 'label' => false, 'class'=>'form-control')); ?>
+            </div>
+        </div><hr>
         <div class="form-actions">
             <div class="row">
                 <div class="col-md-offset-4 col-md-9">
