@@ -41,7 +41,7 @@
             <td class="text-center"><?= $clientAlertSetting->has('client_contact') ? $this->Html->link($clientAlertSetting->client_contact->name, ['controller' => 'ClientContacts', 'action' => 'view', $clientAlertSetting->client_contact->id]) : '' ?></td>
             <td class="text-center"><?= $clientAlertSetting->has('client_device') ? $this->Html->link($clientAlertSetting->client_device->name, ['controller' => 'ClientDevices', 'action' => 'view', $clientAlertSetting->client_device->id]) : '' ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $clientAlertSetting->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $clientAlertSetting->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $clientAlertSetting->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientAlertSetting->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientAlertSetting->id)]) ?>
             </td>

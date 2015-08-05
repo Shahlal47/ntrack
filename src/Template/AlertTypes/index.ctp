@@ -38,7 +38,7 @@
             <td class="text-center"><?= h($alertType->description) ?></td>
             <td class="text-center"><?= h($alertType->msg_code) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $alertType->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $alertType->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $alertType->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $alertType->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $alertType->id)]) ?>
             </td>

@@ -35,7 +35,7 @@
                     <td class="text-center"><?=h($fuelType->name) ?></td>
                     <td class="text-center"><?=h($fuelType->description) ?></td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $fuelType->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $fuelType->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                         <?= $this->Html->link(__(''), ['action' => 'edit', $fuelType->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                         <?= $this->Form->postLink(__(''), ['action' => 'delete', $fuelType->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $fuelType->id)]) ?>
                     </td>

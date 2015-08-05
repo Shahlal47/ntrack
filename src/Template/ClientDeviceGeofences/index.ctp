@@ -40,7 +40,7 @@
                     <td class="text-center"><?= $clientDeviceGeofence->has('client_device') ? $this->Html->link($clientDeviceGeofence->client_device->name, ['controller' => 'ClientDevices', 'action' => 'view', $clientDeviceGeofence->client_device->id]) : '' ?></td>
                     <td class="text-center"><?= $clientDeviceGeofence->has('geofence') ? $this->Html->link($clientDeviceGeofence->geofence->name, ['controller' => 'Geofences', 'action' => 'view', $clientDeviceGeofence->geofence->id]) : '' ?></td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDeviceGeofence->id], ['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDeviceGeofence->id], ['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                         <?= $this->Html->link(__(''), ['action' => 'edit', $clientDeviceGeofence->id], ['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                         <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientDeviceGeofence->id], ['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientDeviceGeofence->id)]) ?>
                     </td>

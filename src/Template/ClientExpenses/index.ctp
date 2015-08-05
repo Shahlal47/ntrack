@@ -52,7 +52,7 @@
             <td class="text-center"><?= $this->Number->format($clientExpense->amount) ?></td>
             <td class="text-center"><?= h($clientExpense->comments) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $clientExpense->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $clientExpense->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $clientExpense->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientExpense->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientExpense->id)]) ?>
             </td>

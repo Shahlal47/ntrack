@@ -55,7 +55,7 @@
                         <?= $clientDriverAssignment->has('client_contact') ? $this->Html->link($clientDriverAssignment->client_contact->name, ['controller' => 'ClientContacts', 'action' => 'view', $clientDriverAssignment->client_contact->id]) : '' ?>
                     </td>
                     <td class="actions text-center">
-                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDriverAssignment->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                        <?= $this->Html->link(__(''), ['action' => 'view', $clientDriverAssignment->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                         <?= $this->Html->link(__(''), ['action' => 'edit', $clientDriverAssignment->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                         <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientDriverAssignment->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientDriverAssignment->id)]) ?>
                     </td>

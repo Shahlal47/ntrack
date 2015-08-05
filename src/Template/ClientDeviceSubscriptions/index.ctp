@@ -44,7 +44,7 @@
             <td class="text-center"><?= h($clientDeviceSubscription->expire_date) ?></td>
             <td class="text-center"><?= h($clientDeviceSubscription->active) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $clientDeviceSubscription->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $clientDeviceSubscription->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $clientDeviceSubscription->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientDeviceSubscription->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientDeviceSubscription->id)]) ?>
             </td>

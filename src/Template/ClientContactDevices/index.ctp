@@ -37,7 +37,7 @@
             <td class="text-center"><?= $clientContactDevice->has('client_device') ? $this->Html->link($clientContactDevice->client_device->name, ['controller' => 'ClientDevices', 'action' => 'view', $clientContactDevice->client_device->id]) : '' ?></td>
             <td class="text-center"><?= h($clientContactDevice->active) ?></td>
             <td class="actions text-center">
-                <?= $this->Html->link(__(''), ['action' => 'view', $clientContactDevice->id],['class'=>'btn btn-xs fa fa-list text-primary']) ?>
+                <?= $this->Html->link(__(''), ['action' => 'view', $clientContactDevice->id],['class'=>'btn btn-xs fa fa-eye text-primary']) ?>
                 <?= $this->Html->link(__(''), ['action' => 'edit', $clientContactDevice->id],['class'=>'btn btn-xs fa fa-pencil text-warning']) ?>
                 <?= $this->Form->postLink(__(''), ['action' => 'delete', $clientContactDevice->id],['class'=>'btn btn-xs fa fa-trash text-danger'], ['confirm' => __('Are you sure you want to delete # {0}?', $clientContactDevice->id)]) ?>
             </td>
